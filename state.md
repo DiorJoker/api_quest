@@ -61,6 +61,8 @@ export default function CounterApp() {
 5. state 内のオブジェクトの更新
 以下のコードは、「ユーザー情報アプリ」です。ボタンをクリックすると名前が「太一」に変更されるようにしたいのですが、実際には変更されません。なぜなのか、その理由を説明してください。また、正しく動作するようにコードを修正してください。
 
+
+```
 import { useState } from 'react';
 
 export default function UserInfoApp() {
@@ -81,7 +83,12 @@ export default function UserInfoApp() {
     </div>
   );
 }
+
+```
+
+
 6. state 内の配列の更新
+
 「ユーザー情報アプリ」に趣味を追加する機能を追加しました。しかし、ボタンをクリックしても趣味が追加されません。なぜなのか、その理由を説明してください。また、正しく動作するようにコードを修正してください。
 
 
@@ -130,4 +137,5 @@ export default function UserInfoApp() {
 
 
 7. state のベストプラクティス
+
 React の公式ドキュメントの「state の管理」を読んでください。state を適切に使用する方法がまとめられています。state を適切に使用できるようになりましょう。
