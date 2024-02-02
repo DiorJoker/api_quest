@@ -1,0 +1,2014 @@
+Started GET "/" for ::1 at 2024-01-22 02:29:13 +0900
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/itourei/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/railties-7.0.8/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/itourei/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/railties-7.0.8/lib/rails/templates/rails/welcome/index.html.erb (Duration: 6.1ms | Allocations: 633)
+Completed 200 OK in 55ms (Views: 17.5ms | ActiveRecord: 0.0ms | Allocations: 7355)
+
+
+Started GET "/rails/info" for ::1 at 2024-01-22 02:33:32 +0900
+Processing by Rails::InfoController#index as HTML
+Redirected to http://localhost:3000/rails/info/routes
+Completed 302 Found in 15ms (ActiveRecord: 0.0ms | Allocations: 2017)
+
+
+Started GET "/rails/info/routes" for ::1 at 2024-01-22 02:33:32 +0900
+Processing by Rails::InfoController#routes as HTML
+  Rendering layout /Users/itourei/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/railties-7.0.8/lib/rails/templates/layouts/application.html.erb
+  Rendering /Users/itourei/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/railties-7.0.8/lib/rails/templates/rails/info/routes.html.erb within layouts/application
+  Rendered collection of /Users/itourei/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/actionpack-7.0.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb [31 times] (Duration: 7.0ms | Allocations: 5261)
+  Rendered /Users/itourei/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/actionpack-7.0.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (Duration: 5.7ms | Allocations: 1366)
+  Rendered /Users/itourei/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/railties-7.0.8/lib/rails/templates/rails/info/routes.html.erb within layouts/application (Duration: 18.4ms | Allocations: 10210)
+  Rendered layout /Users/itourei/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/railties-7.0.8/lib/rails/templates/layouts/application.html.erb (Duration: 20.4ms | Allocations: 10509)
+Completed 200 OK in 37ms (Views: 25.3ms | ActiveRecord: 0.0ms | Allocations: 13194)
+
+
+Started GET "//health" for ::1 at 2024-01-22 18:42:12 +0900
+  
+SyntaxError (/Users/itourei/Desktop/code/api_quest/postman_step2/test_postman/app/controllers/api_test_controller.rb:3: syntax error, unexpected ':', expecting `end' or dummy end
+    "status": "success"
+            ^
+):
+  
+app/controllers/api_test_controller.rb:3: syntax error, unexpected ':', expecting `end' or dummy end
+app/controllers/api_test_controller.rb:3: syntax error, unexpected ':', expecting `end' or dummy end
+Started GET "//health" for ::1 at 2024-01-22 18:42:19 +0900
+  
+SyntaxError (/Users/itourei/Desktop/code/api_quest/postman_step2/test_postman/app/controllers/api_test_controller.rb:3: syntax error, unexpected ':', expecting `end' or dummy end
+    "status": "success"
+            ^
+):
+  
+app/controllers/api_test_controller.rb:3: syntax error, unexpected ':', expecting `end' or dummy end
+app/controllers/api_test_controller.rb:3: syntax error, unexpected ':', expecting `end' or dummy end
+Started GET "/health" for ::1 at 2024-01-22 18:42:32 +0900
+  
+SyntaxError (/Users/itourei/Desktop/code/api_quest/postman_step2/test_postman/app/controllers/api_test_controller.rb:3: syntax error, unexpected ':', expecting `end' or dummy end
+    "status": "success"
+            ^
+):
+  
+app/controllers/api_test_controller.rb:3: syntax error, unexpected ':', expecting `end' or dummy end
+app/controllers/api_test_controller.rb:3: syntax error, unexpected ':', expecting `end' or dummy end
+Started GET "/health" for ::1 at 2024-01-22 18:43:29 +0900
+  
+SyntaxError (/Users/itourei/Desktop/code/api_quest/postman_step2/test_postman/app/controllers/api_test_controller.rb:3: syntax error, unexpected ':', expecting `end' or dummy end
+    "status": "success"
+            ^
+):
+  
+app/controllers/api_test_controller.rb:3: syntax error, unexpected ':', expecting `end' or dummy end
+app/controllers/api_test_controller.rb:3: syntax error, unexpected ':', expecting `end' or dummy end
+Started GET "/health" for ::1 at 2024-01-22 18:44:15 +0900
+  
+SyntaxError (/Users/itourei/Desktop/code/api_quest/postman_step2/test_postman/app/controllers/api_test_controller.rb:3: syntax error, unexpected ':', expecting `end' or dummy end
+    "status": "success"
+            ^
+):
+  
+app/controllers/api_test_controller.rb:3: syntax error, unexpected ':', expecting `end' or dummy end
+app/controllers/api_test_controller.rb:3: syntax error, unexpected ':', expecting `end' or dummy end
+Started GET "/health" for ::1 at 2024-01-22 18:46:45 +0900
+Processing by ApiTestController#health as */*
+No template found for ApiTestController#health, rendering head :no_content
+Completed 204 No Content in 16ms (ActiveRecord: 0.0ms | Allocations: 1894)
+
+
+Started GET "/health" for ::1 at 2024-01-22 18:47:22 +0900
+  
+SyntaxError (/Users/itourei/Desktop/code/api_quest/postman_step2/test_postman/app/controllers/api_test_controller.rb:3: syntax error, unexpected ':', expecting `end' or dummy end
+    return "status": "success"
+                   ^
+):
+  
+app/controllers/api_test_controller.rb:3: syntax error, unexpected ':', expecting `end' or dummy end
+app/controllers/api_test_controller.rb:3: syntax error, unexpected ':', expecting `end' or dummy end
+Started GET "/health" for ::1 at 2024-01-22 18:48:14 +0900
+Processing by ApiTestController#return as */*
+  Rendering layout layouts/application.html.erb
+  Rendering api_test/return.html.erb within layouts/application
+  Rendered api_test/return.html.erb within layouts/application (Duration: 4.5ms | Allocations: 298)
+  Rendered layout layouts/application.html.erb (Duration: 1069.4ms | Allocations: 84833)
+Completed 200 OK in 1100ms (Views: 1076.3ms | ActiveRecord: 0.0ms | Allocations: 88855)
+
+
+Started GET "/health" for ::1 at 2024-01-22 18:48:45 +0900
+Processing by ApiTestController#return as */*
+  Rendering layout layouts/application.html.erb
+  Rendering api_test/return.html.erb within layouts/application
+  Rendered api_test/return.html.erb within layouts/application (Duration: 1.6ms | Allocations: 298)
+  Rendered layout layouts/application.html.erb (Duration: 89.5ms | Allocations: 32868)
+Completed 200 OK in 105ms (Views: 93.7ms | ActiveRecord: 0.0ms | Allocations: 36890)
+
+
+Started GET "/health" for ::1 at 2024-01-22 18:54:34 +0900
+Processing by ApiTestController#return as */*
+Completed 200 OK in 13ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 1501)
+
+
+Started GET "/health" for ::1 at 2024-01-22 18:55:00 +0900
+Processing by ApiTestController#return as */*
+Completed 200 OK in 5ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 1500)
+
+
+Started GET "/health" for ::1 at 2024-01-22 19:14:24 +0900
+  
+SyntaxError (/Users/itourei/Desktop/code/api_quest/postman_step2/test_postman/app/controllers/api_test_controller.rb:3: syntax error, unexpected ':', expecting '}'
+    render { 'status': 'success' }
+                     ^
+):
+  
+app/controllers/api_test_controller.rb:3: syntax error, unexpected ':', expecting '}'
+app/controllers/api_test_controller.rb:3: syntax error, unexpected ':', expecting '}'
+  [1m[35m (1.9ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (1.1ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateTodos (20240122102245)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE TABLE "todos" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20240122102245"]]
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.3ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2024-01-22 10:23:21.699328"], ["updated_at", "2024-01-22 10:23:21.699328"]]
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started POST "/todos" for ::1 at 2024-01-23 20:01:49 +0900
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+SyntaxError (/Users/itourei/Desktop/code/api_quest/postman_step2/test_postman/app/controllers/todos_controller.rb:18: syntax error, unexpected '}', expecting =>
+      render json: { '×' }
+                          ^
+):
+  
+app/controllers/todos_controller.rb:18: syntax error, unexpected '}', expecting =>
+app/controllers/todos_controller.rb:18: syntax error, unexpected '}', expecting =>
+Started POST "/todos?title=%E8%B2%B7%E3%81%84%E7%89%A9%E3%81%AB%E8%A1%8C%E3%81%8F" for ::1 at 2024-01-23 20:02:39 +0900
+  
+SyntaxError (/Users/itourei/Desktop/code/api_quest/postman_step2/test_postman/app/controllers/todos_controller.rb:18: syntax error, unexpected '}', expecting =>
+      render json: { '×' }
+                          ^
+):
+  
+app/controllers/todos_controller.rb:18: syntax error, unexpected '}', expecting =>
+app/controllers/todos_controller.rb:18: syntax error, unexpected '}', expecting =>
+Started POST "/todos?title=%E8%B2%B7%E3%81%84%E7%89%A9%E3%81%AB%E8%A1%8C%E3%81%8F" for ::1 at 2024-01-23 20:02:52 +0900
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+SyntaxError (/Users/itourei/Desktop/code/api_quest/postman_step2/test_postman/app/controllers/todos_controller.rb:18: syntax error, unexpected '}', expecting =>
+      render json: { '×' }
+                          ^
+):
+  
+app/controllers/todos_controller.rb:18: syntax error, unexpected '}', expecting =>
+app/controllers/todos_controller.rb:18: syntax error, unexpected '}', expecting =>
+Started POST "/todos?todos.title=%E8%B2%B7%E3%81%84%E7%89%A9%E3%81%AB%E8%A1%8C%E3%81%8F" for ::1 at 2024-01-23 20:03:39 +0900
+  
+SyntaxError (/Users/itourei/Desktop/code/api_quest/postman_step2/test_postman/app/controllers/todos_controller.rb:18: syntax error, unexpected '}', expecting =>
+      render json: { '×' }
+                          ^
+):
+  
+app/controllers/todos_controller.rb:18: syntax error, unexpected '}', expecting =>
+app/controllers/todos_controller.rb:18: syntax error, unexpected '}', expecting =>
+Started POST "/todos?todos:title=%E8%B2%B7%E3%81%84%E7%89%A9%E3%81%AB%E8%A1%8C%E3%81%8F" for ::1 at 2024-01-23 20:03:47 +0900
+  
+SyntaxError (/Users/itourei/Desktop/code/api_quest/postman_step2/test_postman/app/controllers/todos_controller.rb:18: syntax error, unexpected '}', expecting =>
+      render json: { '×' }
+                          ^
+):
+  
+app/controllers/todos_controller.rb:18: syntax error, unexpected '}', expecting =>
+app/controllers/todos_controller.rb:18: syntax error, unexpected '}', expecting =>
+Started POST "/todos?todos={{%27title%27:%27%E8%B2%B7%E3%81%84%E7%89%A9%E3%81%AB%E8%A1%8C%E3%81%8F%27}}" for ::1 at 2024-01-23 20:05:43 +0900
+  
+SyntaxError (/Users/itourei/Desktop/code/api_quest/postman_step2/test_postman/app/controllers/todos_controller.rb:18: syntax error, unexpected '}', expecting =>
+      render json: { '×' }
+                          ^
+):
+  
+app/controllers/todos_controller.rb:18: syntax error, unexpected '}', expecting =>
+app/controllers/todos_controller.rb:18: syntax error, unexpected '}', expecting =>
+Started POST "/todos?todos={%27title%27:%27%E8%B2%B7%E3%81%84%E7%89%A9%E3%81%AB%E8%A1%8C%E3%81%8F%27}" for ::1 at 2024-01-23 20:06:10 +0900
+  
+SyntaxError (/Users/itourei/Desktop/code/api_quest/postman_step2/test_postman/app/controllers/todos_controller.rb:18: syntax error, unexpected '}', expecting =>
+      render json: { '×' }
+                          ^
+):
+  
+app/controllers/todos_controller.rb:18: syntax error, unexpected '}', expecting =>
+app/controllers/todos_controller.rb:18: syntax error, unexpected '}', expecting =>
+Started POST "/todos?todos={%27title%27:%27%E8%B2%B7%E3%81%84%E7%89%A9%E3%81%AB%E8%A1%8C%E3%81%8F%27}" for ::1 at 2024-01-23 20:14:29 +0900
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+SyntaxError (/Users/itourei/Desktop/code/api_quest/postman_step2/test_postman/app/controllers/todos_controller.rb:27: syntax error, unexpected '}', expecting =>
+      render json: { '×' }
+                          ^
+):
+  
+app/controllers/todos_controller.rb:27: syntax error, unexpected '}', expecting =>
+app/controllers/todos_controller.rb:27: syntax error, unexpected '}', expecting =>
+Started POST "/todos?todo={%27title%27:%27%E8%B2%B7%E3%81%84%E7%89%A9%E3%81%AB%E8%A1%8C%E3%81%8F%27}" for ::1 at 2024-01-23 20:15:09 +0900
+  
+SyntaxError (/Users/itourei/Desktop/code/api_quest/postman_step2/test_postman/app/controllers/todos_controller.rb:27: syntax error, unexpected '}', expecting =>
+      render json: { '×' }
+                          ^
+):
+  
+app/controllers/todos_controller.rb:27: syntax error, unexpected '}', expecting =>
+app/controllers/todos_controller.rb:27: syntax error, unexpected '}', expecting =>
+Started POST "/todos?%27todo%27={%27title%27:%27%E8%B2%B7%E3%81%84%E7%89%A9%E3%81%AB%E8%A1%8C%E3%81%8F%27}" for ::1 at 2024-01-23 20:15:26 +0900
+  
+SyntaxError (/Users/itourei/Desktop/code/api_quest/postman_step2/test_postman/app/controllers/todos_controller.rb:27: syntax error, unexpected '}', expecting =>
+      render json: { '×' }
+                          ^
+):
+  
+app/controllers/todos_controller.rb:27: syntax error, unexpected '}', expecting =>
+app/controllers/todos_controller.rb:27: syntax error, unexpected '}', expecting =>
+Started POST "/todos?={%27todo%27:{%27title%27:%27%E8%B2%B7%E3%81%84%E7%89%A9%E3%81%AB%E8%A1%8C%E3%81%8F%27}}" for ::1 at 2024-01-23 20:16:20 +0900
+  
+SyntaxError (/Users/itourei/Desktop/code/api_quest/postman_step2/test_postman/app/controllers/todos_controller.rb:27: syntax error, unexpected '}', expecting =>
+      render json: { '×' }
+                          ^
+):
+  
+app/controllers/todos_controller.rb:27: syntax error, unexpected '}', expecting =>
+app/controllers/todos_controller.rb:27: syntax error, unexpected '}', expecting =>
+Started POST "/todos?={%27todo%27:{%27title%27:%27%E8%B2%B7%E3%81%84%E7%89%A9%E3%81%AB%E8%A1%8C%E3%81%8F%27}}" for ::1 at 2024-01-23 20:17:42 +0900
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TodosController#update as */*
+Can't verify CSRF token authenticity.
+Completed 422 Unprocessable Entity in 1ms (ActiveRecord: 0.0ms | Allocations: 629)
+
+
+  
+ActionController::InvalidAuthenticityToken (Can't verify CSRF token authenticity.):
+  
+actionpack (7.0.8) lib/action_controller/metal/request_forgery_protection.rb:253:in `handle_unverified_request'
+actionpack (7.0.8) lib/action_controller/metal/request_forgery_protection.rb:286:in `handle_unverified_request'
+actionpack (7.0.8) lib/action_controller/metal/request_forgery_protection.rb:275:in `verify_authenticity_token'
+activesupport (7.0.8) lib/active_support/callbacks.rb:400:in `block in make_lambda'
+activesupport (7.0.8) lib/active_support/callbacks.rb:199:in `block (2 levels) in halting'
+actionpack (7.0.8) lib/abstract_controller/callbacks.rb:34:in `block (2 levels) in <module:Callbacks>'
+activesupport (7.0.8) lib/active_support/callbacks.rb:200:in `block in halting'
+activesupport (7.0.8) lib/active_support/callbacks.rb:595:in `block in invoke_before'
+activesupport (7.0.8) lib/active_support/callbacks.rb:595:in `each'
+activesupport (7.0.8) lib/active_support/callbacks.rb:595:in `invoke_before'
+activesupport (7.0.8) lib/active_support/callbacks.rb:116:in `block in run_callbacks'
+activesupport (7.0.8) lib/active_support/callbacks.rb:138:in `run_callbacks'
+actionpack (7.0.8) lib/abstract_controller/callbacks.rb:233:in `process_action'
+actionpack (7.0.8) lib/action_controller/metal/rescue.rb:23:in `process_action'
+actionpack (7.0.8) lib/action_controller/metal/instrumentation.rb:67:in `block in process_action'
+activesupport (7.0.8) lib/active_support/notifications.rb:206:in `block in instrument'
+activesupport (7.0.8) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (7.0.8) lib/active_support/notifications.rb:206:in `instrument'
+actionpack (7.0.8) lib/action_controller/metal/instrumentation.rb:66:in `process_action'
+actionpack (7.0.8) lib/action_controller/metal/params_wrapper.rb:259:in `process_action'
+activerecord (7.0.8) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (7.0.8) lib/abstract_controller/base.rb:151:in `process'
+actionview (7.0.8) lib/action_view/rendering.rb:39:in `process'
+actionpack (7.0.8) lib/action_controller/metal.rb:188:in `dispatch'
+actionpack (7.0.8) lib/action_controller/metal.rb:251:in `dispatch'
+actionpack (7.0.8) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.0.8) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.0.8) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.8) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.8) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.8) lib/action_dispatch/routing/route_set.rb:852:in `call'
+rack (2.2.8) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.8) lib/rack/etag.rb:27:in `call'
+rack (2.2.8) lib/rack/conditional_get.rb:40:in `call'
+rack (2.2.8) lib/rack/head.rb:12:in `call'
+actionpack (7.0.8) lib/action_dispatch/http/permissions_policy.rb:38:in `call'
+actionpack (7.0.8) lib/action_dispatch/http/content_security_policy.rb:36:in `call'
+rack (2.2.8) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.8) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/cookies.rb:704:in `call'
+activerecord (7.0.8) lib/active_record/migration.rb:638:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.8) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.8) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/show_exceptions.rb:29:in `call'
+railties (7.0.8) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.8) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.8) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.8) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.8) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.8) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.8) lib/rack/method_override.rb:24:in `call'
+rack (2.2.8) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.8) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.8) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.8) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.8) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/host_authorization.rb:138:in `call'
+railties (7.0.8) lib/rails/engine.rb:530:in `call'
+puma (5.6.8) lib/puma/configuration.rb:252:in `call'
+puma (5.6.8) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.8) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.8) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.8) lib/puma/server.rb:443:in `process_client'
+puma (5.6.8) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started POST "/todos?todo={%27title%27:%27%E8%B2%B7%E3%81%84%E7%89%A9%E3%81%AB%E8%A1%8C%E3%81%8F%27}" for ::1 at 2024-01-23 20:17:59 +0900
+Processing by TodosController#update as */*
+  Parameters: {"todo"=>"{'title':'買い物に行く'}"}
+Can't verify CSRF token authenticity.
+Completed 422 Unprocessable Entity in 1ms (ActiveRecord: 0.0ms | Allocations: 442)
+
+
+  
+ActionController::InvalidAuthenticityToken (Can't verify CSRF token authenticity.):
+  
+actionpack (7.0.8) lib/action_controller/metal/request_forgery_protection.rb:253:in `handle_unverified_request'
+actionpack (7.0.8) lib/action_controller/metal/request_forgery_protection.rb:286:in `handle_unverified_request'
+actionpack (7.0.8) lib/action_controller/metal/request_forgery_protection.rb:275:in `verify_authenticity_token'
+activesupport (7.0.8) lib/active_support/callbacks.rb:400:in `block in make_lambda'
+activesupport (7.0.8) lib/active_support/callbacks.rb:199:in `block (2 levels) in halting'
+actionpack (7.0.8) lib/abstract_controller/callbacks.rb:34:in `block (2 levels) in <module:Callbacks>'
+activesupport (7.0.8) lib/active_support/callbacks.rb:200:in `block in halting'
+activesupport (7.0.8) lib/active_support/callbacks.rb:595:in `block in invoke_before'
+activesupport (7.0.8) lib/active_support/callbacks.rb:595:in `each'
+activesupport (7.0.8) lib/active_support/callbacks.rb:595:in `invoke_before'
+activesupport (7.0.8) lib/active_support/callbacks.rb:116:in `block in run_callbacks'
+activesupport (7.0.8) lib/active_support/callbacks.rb:138:in `run_callbacks'
+actionpack (7.0.8) lib/abstract_controller/callbacks.rb:233:in `process_action'
+actionpack (7.0.8) lib/action_controller/metal/rescue.rb:23:in `process_action'
+actionpack (7.0.8) lib/action_controller/metal/instrumentation.rb:67:in `block in process_action'
+activesupport (7.0.8) lib/active_support/notifications.rb:206:in `block in instrument'
+activesupport (7.0.8) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (7.0.8) lib/active_support/notifications.rb:206:in `instrument'
+actionpack (7.0.8) lib/action_controller/metal/instrumentation.rb:66:in `process_action'
+actionpack (7.0.8) lib/action_controller/metal/params_wrapper.rb:259:in `process_action'
+activerecord (7.0.8) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (7.0.8) lib/abstract_controller/base.rb:151:in `process'
+actionview (7.0.8) lib/action_view/rendering.rb:39:in `process'
+actionpack (7.0.8) lib/action_controller/metal.rb:188:in `dispatch'
+actionpack (7.0.8) lib/action_controller/metal.rb:251:in `dispatch'
+actionpack (7.0.8) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.0.8) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.0.8) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.8) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.8) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.8) lib/action_dispatch/routing/route_set.rb:852:in `call'
+rack (2.2.8) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.8) lib/rack/etag.rb:27:in `call'
+rack (2.2.8) lib/rack/conditional_get.rb:40:in `call'
+rack (2.2.8) lib/rack/head.rb:12:in `call'
+actionpack (7.0.8) lib/action_dispatch/http/permissions_policy.rb:38:in `call'
+actionpack (7.0.8) lib/action_dispatch/http/content_security_policy.rb:36:in `call'
+rack (2.2.8) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.8) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/cookies.rb:704:in `call'
+activerecord (7.0.8) lib/active_record/migration.rb:638:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.8) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.8) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/show_exceptions.rb:29:in `call'
+railties (7.0.8) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.8) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.8) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.8) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.8) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.8) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.8) lib/rack/method_override.rb:24:in `call'
+rack (2.2.8) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.8) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.8) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.8) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.8) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/host_authorization.rb:138:in `call'
+railties (7.0.8) lib/rails/engine.rb:530:in `call'
+puma (5.6.8) lib/puma/configuration.rb:252:in `call'
+puma (5.6.8) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.8) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.8) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.8) lib/puma/server.rb:443:in `process_client'
+puma (5.6.8) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started POST "/todos?title=%E8%B2%B7%E3%81%84%E7%89%A9%E3%81%AB%E8%A1%8C%E3%81%8F" for ::1 at 2024-01-23 20:19:02 +0900
+Processing by TodosController#update as */*
+  Parameters: {"title"=>"買い物に行く"}
+Can't verify CSRF token authenticity.
+Completed 422 Unprocessable Entity in 0ms (ActiveRecord: 0.0ms | Allocations: 442)
+
+
+  
+ActionController::InvalidAuthenticityToken (Can't verify CSRF token authenticity.):
+  
+actionpack (7.0.8) lib/action_controller/metal/request_forgery_protection.rb:253:in `handle_unverified_request'
+actionpack (7.0.8) lib/action_controller/metal/request_forgery_protection.rb:286:in `handle_unverified_request'
+actionpack (7.0.8) lib/action_controller/metal/request_forgery_protection.rb:275:in `verify_authenticity_token'
+activesupport (7.0.8) lib/active_support/callbacks.rb:400:in `block in make_lambda'
+activesupport (7.0.8) lib/active_support/callbacks.rb:199:in `block (2 levels) in halting'
+actionpack (7.0.8) lib/abstract_controller/callbacks.rb:34:in `block (2 levels) in <module:Callbacks>'
+activesupport (7.0.8) lib/active_support/callbacks.rb:200:in `block in halting'
+activesupport (7.0.8) lib/active_support/callbacks.rb:595:in `block in invoke_before'
+activesupport (7.0.8) lib/active_support/callbacks.rb:595:in `each'
+activesupport (7.0.8) lib/active_support/callbacks.rb:595:in `invoke_before'
+activesupport (7.0.8) lib/active_support/callbacks.rb:116:in `block in run_callbacks'
+activesupport (7.0.8) lib/active_support/callbacks.rb:138:in `run_callbacks'
+actionpack (7.0.8) lib/abstract_controller/callbacks.rb:233:in `process_action'
+actionpack (7.0.8) lib/action_controller/metal/rescue.rb:23:in `process_action'
+actionpack (7.0.8) lib/action_controller/metal/instrumentation.rb:67:in `block in process_action'
+activesupport (7.0.8) lib/active_support/notifications.rb:206:in `block in instrument'
+activesupport (7.0.8) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (7.0.8) lib/active_support/notifications.rb:206:in `instrument'
+actionpack (7.0.8) lib/action_controller/metal/instrumentation.rb:66:in `process_action'
+actionpack (7.0.8) lib/action_controller/metal/params_wrapper.rb:259:in `process_action'
+activerecord (7.0.8) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (7.0.8) lib/abstract_controller/base.rb:151:in `process'
+actionview (7.0.8) lib/action_view/rendering.rb:39:in `process'
+actionpack (7.0.8) lib/action_controller/metal.rb:188:in `dispatch'
+actionpack (7.0.8) lib/action_controller/metal.rb:251:in `dispatch'
+actionpack (7.0.8) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.0.8) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.0.8) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.8) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.8) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.8) lib/action_dispatch/routing/route_set.rb:852:in `call'
+rack (2.2.8) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.8) lib/rack/etag.rb:27:in `call'
+rack (2.2.8) lib/rack/conditional_get.rb:40:in `call'
+rack (2.2.8) lib/rack/head.rb:12:in `call'
+actionpack (7.0.8) lib/action_dispatch/http/permissions_policy.rb:38:in `call'
+actionpack (7.0.8) lib/action_dispatch/http/content_security_policy.rb:36:in `call'
+rack (2.2.8) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.8) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/cookies.rb:704:in `call'
+activerecord (7.0.8) lib/active_record/migration.rb:638:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.8) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.8) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/show_exceptions.rb:29:in `call'
+railties (7.0.8) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.8) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.8) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.8) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.8) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.8) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.8) lib/rack/method_override.rb:24:in `call'
+rack (2.2.8) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.8) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.8) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.8) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.8) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/host_authorization.rb:138:in `call'
+railties (7.0.8) lib/rails/engine.rb:530:in `call'
+puma (5.6.8) lib/puma/configuration.rb:252:in `call'
+puma (5.6.8) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.8) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.8) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.8) lib/puma/server.rb:443:in `process_client'
+puma (5.6.8) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started POST "/todos?title=%E8%B2%B7%E3%81%84%E7%89%A9%E3%81%AB%E8%A1%8C%E3%81%8F" for ::1 at 2024-01-23 20:26:43 +0900
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TodosController#update as */*
+  Parameters: {"title"=>"買い物に行く"}
+Can't verify CSRF token authenticity.
+Completed 422 Unprocessable Entity in 0ms (ActiveRecord: 0.0ms | Allocations: 629)
+
+
+  
+ActionController::InvalidAuthenticityToken (Can't verify CSRF token authenticity.):
+  
+actionpack (7.0.8) lib/action_controller/metal/request_forgery_protection.rb:253:in `handle_unverified_request'
+actionpack (7.0.8) lib/action_controller/metal/request_forgery_protection.rb:286:in `handle_unverified_request'
+actionpack (7.0.8) lib/action_controller/metal/request_forgery_protection.rb:275:in `verify_authenticity_token'
+activesupport (7.0.8) lib/active_support/callbacks.rb:400:in `block in make_lambda'
+activesupport (7.0.8) lib/active_support/callbacks.rb:199:in `block (2 levels) in halting'
+actionpack (7.0.8) lib/abstract_controller/callbacks.rb:34:in `block (2 levels) in <module:Callbacks>'
+activesupport (7.0.8) lib/active_support/callbacks.rb:200:in `block in halting'
+activesupport (7.0.8) lib/active_support/callbacks.rb:595:in `block in invoke_before'
+activesupport (7.0.8) lib/active_support/callbacks.rb:595:in `each'
+activesupport (7.0.8) lib/active_support/callbacks.rb:595:in `invoke_before'
+activesupport (7.0.8) lib/active_support/callbacks.rb:116:in `block in run_callbacks'
+activesupport (7.0.8) lib/active_support/callbacks.rb:138:in `run_callbacks'
+actionpack (7.0.8) lib/abstract_controller/callbacks.rb:233:in `process_action'
+actionpack (7.0.8) lib/action_controller/metal/rescue.rb:23:in `process_action'
+actionpack (7.0.8) lib/action_controller/metal/instrumentation.rb:67:in `block in process_action'
+activesupport (7.0.8) lib/active_support/notifications.rb:206:in `block in instrument'
+activesupport (7.0.8) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (7.0.8) lib/active_support/notifications.rb:206:in `instrument'
+actionpack (7.0.8) lib/action_controller/metal/instrumentation.rb:66:in `process_action'
+actionpack (7.0.8) lib/action_controller/metal/params_wrapper.rb:259:in `process_action'
+activerecord (7.0.8) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (7.0.8) lib/abstract_controller/base.rb:151:in `process'
+actionview (7.0.8) lib/action_view/rendering.rb:39:in `process'
+actionpack (7.0.8) lib/action_controller/metal.rb:188:in `dispatch'
+actionpack (7.0.8) lib/action_controller/metal.rb:251:in `dispatch'
+actionpack (7.0.8) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.0.8) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.0.8) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.8) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.8) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.8) lib/action_dispatch/routing/route_set.rb:852:in `call'
+rack (2.2.8) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.8) lib/rack/etag.rb:27:in `call'
+rack (2.2.8) lib/rack/conditional_get.rb:40:in `call'
+rack (2.2.8) lib/rack/head.rb:12:in `call'
+actionpack (7.0.8) lib/action_dispatch/http/permissions_policy.rb:38:in `call'
+actionpack (7.0.8) lib/action_dispatch/http/content_security_policy.rb:36:in `call'
+rack (2.2.8) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.8) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/cookies.rb:704:in `call'
+activerecord (7.0.8) lib/active_record/migration.rb:638:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.8) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.8) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/show_exceptions.rb:29:in `call'
+railties (7.0.8) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.8) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.8) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.8) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.8) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.8) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.8) lib/rack/method_override.rb:24:in `call'
+rack (2.2.8) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.8) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.8) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.8) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.8) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/host_authorization.rb:138:in `call'
+railties (7.0.8) lib/rails/engine.rb:530:in `call'
+puma (5.6.8) lib/puma/configuration.rb:252:in `call'
+puma (5.6.8) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.8) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.8) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.8) lib/puma/server.rb:443:in `process_client'
+puma (5.6.8) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started POST "/todos" for ::1 at 2024-01-23 20:29:41 +0900
+Processing by TodosController#update as */*
+  Parameters: {"todo"=>{"title"=>"買い物に行く"}}
+Can't verify CSRF token authenticity.
+Completed 422 Unprocessable Entity in 0ms (ActiveRecord: 0.0ms | Allocations: 381)
+
+
+  
+ActionController::InvalidAuthenticityToken (Can't verify CSRF token authenticity.):
+  
+actionpack (7.0.8) lib/action_controller/metal/request_forgery_protection.rb:253:in `handle_unverified_request'
+actionpack (7.0.8) lib/action_controller/metal/request_forgery_protection.rb:286:in `handle_unverified_request'
+actionpack (7.0.8) lib/action_controller/metal/request_forgery_protection.rb:275:in `verify_authenticity_token'
+activesupport (7.0.8) lib/active_support/callbacks.rb:400:in `block in make_lambda'
+activesupport (7.0.8) lib/active_support/callbacks.rb:199:in `block (2 levels) in halting'
+actionpack (7.0.8) lib/abstract_controller/callbacks.rb:34:in `block (2 levels) in <module:Callbacks>'
+activesupport (7.0.8) lib/active_support/callbacks.rb:200:in `block in halting'
+activesupport (7.0.8) lib/active_support/callbacks.rb:595:in `block in invoke_before'
+activesupport (7.0.8) lib/active_support/callbacks.rb:595:in `each'
+activesupport (7.0.8) lib/active_support/callbacks.rb:595:in `invoke_before'
+activesupport (7.0.8) lib/active_support/callbacks.rb:116:in `block in run_callbacks'
+activesupport (7.0.8) lib/active_support/callbacks.rb:138:in `run_callbacks'
+actionpack (7.0.8) lib/abstract_controller/callbacks.rb:233:in `process_action'
+actionpack (7.0.8) lib/action_controller/metal/rescue.rb:23:in `process_action'
+actionpack (7.0.8) lib/action_controller/metal/instrumentation.rb:67:in `block in process_action'
+activesupport (7.0.8) lib/active_support/notifications.rb:206:in `block in instrument'
+activesupport (7.0.8) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (7.0.8) lib/active_support/notifications.rb:206:in `instrument'
+actionpack (7.0.8) lib/action_controller/metal/instrumentation.rb:66:in `process_action'
+actionpack (7.0.8) lib/action_controller/metal/params_wrapper.rb:259:in `process_action'
+activerecord (7.0.8) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (7.0.8) lib/abstract_controller/base.rb:151:in `process'
+actionview (7.0.8) lib/action_view/rendering.rb:39:in `process'
+actionpack (7.0.8) lib/action_controller/metal.rb:188:in `dispatch'
+actionpack (7.0.8) lib/action_controller/metal.rb:251:in `dispatch'
+actionpack (7.0.8) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.0.8) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.0.8) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.8) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.8) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.8) lib/action_dispatch/routing/route_set.rb:852:in `call'
+rack (2.2.8) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.8) lib/rack/etag.rb:27:in `call'
+rack (2.2.8) lib/rack/conditional_get.rb:40:in `call'
+rack (2.2.8) lib/rack/head.rb:12:in `call'
+actionpack (7.0.8) lib/action_dispatch/http/permissions_policy.rb:38:in `call'
+actionpack (7.0.8) lib/action_dispatch/http/content_security_policy.rb:36:in `call'
+rack (2.2.8) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.8) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/cookies.rb:704:in `call'
+activerecord (7.0.8) lib/active_record/migration.rb:638:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.8) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.8) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/show_exceptions.rb:29:in `call'
+railties (7.0.8) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.8) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.8) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.8) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.8) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.8) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.8) lib/rack/method_override.rb:24:in `call'
+rack (2.2.8) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.8) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.8) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.8) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.8) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/host_authorization.rb:138:in `call'
+railties (7.0.8) lib/rails/engine.rb:530:in `call'
+puma (5.6.8) lib/puma/configuration.rb:252:in `call'
+puma (5.6.8) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.8) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.8) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.8) lib/puma/server.rb:443:in `process_client'
+puma (5.6.8) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started POST "/todos" for ::1 at 2024-01-23 20:29:54 +0900
+Processing by TodosController#update as */*
+  Parameters: {"todo"=>{"title"=>"買い物に行く"}}
+Can't verify CSRF token authenticity.
+Completed 422 Unprocessable Entity in 0ms (ActiveRecord: 0.0ms | Allocations: 442)
+
+
+  
+ActionController::InvalidAuthenticityToken (Can't verify CSRF token authenticity.):
+  
+actionpack (7.0.8) lib/action_controller/metal/request_forgery_protection.rb:253:in `handle_unverified_request'
+actionpack (7.0.8) lib/action_controller/metal/request_forgery_protection.rb:286:in `handle_unverified_request'
+actionpack (7.0.8) lib/action_controller/metal/request_forgery_protection.rb:275:in `verify_authenticity_token'
+activesupport (7.0.8) lib/active_support/callbacks.rb:400:in `block in make_lambda'
+activesupport (7.0.8) lib/active_support/callbacks.rb:199:in `block (2 levels) in halting'
+actionpack (7.0.8) lib/abstract_controller/callbacks.rb:34:in `block (2 levels) in <module:Callbacks>'
+activesupport (7.0.8) lib/active_support/callbacks.rb:200:in `block in halting'
+activesupport (7.0.8) lib/active_support/callbacks.rb:595:in `block in invoke_before'
+activesupport (7.0.8) lib/active_support/callbacks.rb:595:in `each'
+activesupport (7.0.8) lib/active_support/callbacks.rb:595:in `invoke_before'
+activesupport (7.0.8) lib/active_support/callbacks.rb:116:in `block in run_callbacks'
+activesupport (7.0.8) lib/active_support/callbacks.rb:138:in `run_callbacks'
+actionpack (7.0.8) lib/abstract_controller/callbacks.rb:233:in `process_action'
+actionpack (7.0.8) lib/action_controller/metal/rescue.rb:23:in `process_action'
+actionpack (7.0.8) lib/action_controller/metal/instrumentation.rb:67:in `block in process_action'
+activesupport (7.0.8) lib/active_support/notifications.rb:206:in `block in instrument'
+activesupport (7.0.8) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (7.0.8) lib/active_support/notifications.rb:206:in `instrument'
+actionpack (7.0.8) lib/action_controller/metal/instrumentation.rb:66:in `process_action'
+actionpack (7.0.8) lib/action_controller/metal/params_wrapper.rb:259:in `process_action'
+activerecord (7.0.8) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (7.0.8) lib/abstract_controller/base.rb:151:in `process'
+actionview (7.0.8) lib/action_view/rendering.rb:39:in `process'
+actionpack (7.0.8) lib/action_controller/metal.rb:188:in `dispatch'
+actionpack (7.0.8) lib/action_controller/metal.rb:251:in `dispatch'
+actionpack (7.0.8) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.0.8) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.0.8) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.8) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.8) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.8) lib/action_dispatch/routing/route_set.rb:852:in `call'
+rack (2.2.8) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.8) lib/rack/etag.rb:27:in `call'
+rack (2.2.8) lib/rack/conditional_get.rb:40:in `call'
+rack (2.2.8) lib/rack/head.rb:12:in `call'
+actionpack (7.0.8) lib/action_dispatch/http/permissions_policy.rb:38:in `call'
+actionpack (7.0.8) lib/action_dispatch/http/content_security_policy.rb:36:in `call'
+rack (2.2.8) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.8) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/cookies.rb:704:in `call'
+activerecord (7.0.8) lib/active_record/migration.rb:638:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.8) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.8) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/show_exceptions.rb:29:in `call'
+railties (7.0.8) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.8) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.8) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.8) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.8) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.8) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.8) lib/rack/method_override.rb:24:in `call'
+rack (2.2.8) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.8) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.8) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.8) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.8) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/host_authorization.rb:138:in `call'
+railties (7.0.8) lib/rails/engine.rb:530:in `call'
+puma (5.6.8) lib/puma/configuration.rb:252:in `call'
+puma (5.6.8) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.8) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.8) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.8) lib/puma/server.rb:443:in `process_client'
+puma (5.6.8) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started POST "/todos" for ::1 at 2024-01-23 20:30:07 +0900
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TodosController#update as */*
+  Parameters: {"todo"=>{"title"=>"買い物に行く"}}
+Can't verify CSRF token authenticity.
+Completed 422 Unprocessable Entity in 0ms (ActiveRecord: 0.0ms | Allocations: 628)
+
+
+  
+ActionController::InvalidAuthenticityToken (Can't verify CSRF token authenticity.):
+  
+actionpack (7.0.8) lib/action_controller/metal/request_forgery_protection.rb:253:in `handle_unverified_request'
+actionpack (7.0.8) lib/action_controller/metal/request_forgery_protection.rb:286:in `handle_unverified_request'
+actionpack (7.0.8) lib/action_controller/metal/request_forgery_protection.rb:275:in `verify_authenticity_token'
+activesupport (7.0.8) lib/active_support/callbacks.rb:400:in `block in make_lambda'
+activesupport (7.0.8) lib/active_support/callbacks.rb:199:in `block (2 levels) in halting'
+actionpack (7.0.8) lib/abstract_controller/callbacks.rb:34:in `block (2 levels) in <module:Callbacks>'
+activesupport (7.0.8) lib/active_support/callbacks.rb:200:in `block in halting'
+activesupport (7.0.8) lib/active_support/callbacks.rb:595:in `block in invoke_before'
+activesupport (7.0.8) lib/active_support/callbacks.rb:595:in `each'
+activesupport (7.0.8) lib/active_support/callbacks.rb:595:in `invoke_before'
+activesupport (7.0.8) lib/active_support/callbacks.rb:116:in `block in run_callbacks'
+activesupport (7.0.8) lib/active_support/callbacks.rb:138:in `run_callbacks'
+actionpack (7.0.8) lib/abstract_controller/callbacks.rb:233:in `process_action'
+actionpack (7.0.8) lib/action_controller/metal/rescue.rb:23:in `process_action'
+actionpack (7.0.8) lib/action_controller/metal/instrumentation.rb:67:in `block in process_action'
+activesupport (7.0.8) lib/active_support/notifications.rb:206:in `block in instrument'
+activesupport (7.0.8) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (7.0.8) lib/active_support/notifications.rb:206:in `instrument'
+actionpack (7.0.8) lib/action_controller/metal/instrumentation.rb:66:in `process_action'
+actionpack (7.0.8) lib/action_controller/metal/params_wrapper.rb:259:in `process_action'
+activerecord (7.0.8) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (7.0.8) lib/abstract_controller/base.rb:151:in `process'
+actionview (7.0.8) lib/action_view/rendering.rb:39:in `process'
+actionpack (7.0.8) lib/action_controller/metal.rb:188:in `dispatch'
+actionpack (7.0.8) lib/action_controller/metal.rb:251:in `dispatch'
+actionpack (7.0.8) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.0.8) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.0.8) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.8) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.8) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.8) lib/action_dispatch/routing/route_set.rb:852:in `call'
+rack (2.2.8) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.8) lib/rack/etag.rb:27:in `call'
+rack (2.2.8) lib/rack/conditional_get.rb:40:in `call'
+rack (2.2.8) lib/rack/head.rb:12:in `call'
+actionpack (7.0.8) lib/action_dispatch/http/permissions_policy.rb:38:in `call'
+actionpack (7.0.8) lib/action_dispatch/http/content_security_policy.rb:36:in `call'
+rack (2.2.8) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.8) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/cookies.rb:704:in `call'
+activerecord (7.0.8) lib/active_record/migration.rb:638:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.8) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.8) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/show_exceptions.rb:29:in `call'
+railties (7.0.8) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.8) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.8) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.8) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.8) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.8) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.8) lib/rack/method_override.rb:24:in `call'
+rack (2.2.8) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.8) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.8) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.8) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.8) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/host_authorization.rb:138:in `call'
+railties (7.0.8) lib/rails/engine.rb:530:in `call'
+puma (5.6.8) lib/puma/configuration.rb:252:in `call'
+puma (5.6.8) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.8) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.8) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.8) lib/puma/server.rb:443:in `process_client'
+puma (5.6.8) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/rails/info/routes" for ::1 at 2024-01-23 20:33:44 +0900
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::InfoController#routes as HTML
+  Rendering layout /Users/itourei/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/railties-7.0.8/lib/rails/templates/layouts/application.html.erb
+  Rendering /Users/itourei/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/railties-7.0.8/lib/rails/templates/rails/info/routes.html.erb within layouts/application
+  Rendered collection of /Users/itourei/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/actionpack-7.0.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb [35 times] (Duration: 8.3ms | Allocations: 5867)
+  Rendered /Users/itourei/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/actionpack-7.0.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (Duration: 4.5ms | Allocations: 1152)
+  Rendered /Users/itourei/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/railties-7.0.8/lib/rails/templates/rails/info/routes.html.erb within layouts/application (Duration: 18.9ms | Allocations: 10897)
+  Rendered layout /Users/itourei/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/railties-7.0.8/lib/rails/templates/layouts/application.html.erb (Duration: 20.5ms | Allocations: 11196)
+Completed 200 OK in 48ms (Views: 23.5ms | ActiveRecord: 0.0ms | Allocations: 15171)
+
+
+Started POST "/todos" for ::1 at 2024-01-23 20:35:06 +0900
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (No route matches [POST] "/todos"):
+  
+Started POST "/todos" for ::1 at 2024-01-23 20:35:09 +0900
+  
+ActionController::RoutingError (No route matches [POST] "/todos"):
+  
+Started GET "/rails/info/routes" for ::1 at 2024-01-23 20:35:17 +0900
+Processing by Rails::InfoController#routes as HTML
+  Rendering layout /Users/itourei/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/railties-7.0.8/lib/rails/templates/layouts/application.html.erb
+  Rendering /Users/itourei/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/railties-7.0.8/lib/rails/templates/rails/info/routes.html.erb within layouts/application
+  Rendered collection of /Users/itourei/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/actionpack-7.0.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb [39 times] (Duration: 7.3ms | Allocations: 6211)
+  Rendered /Users/itourei/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/actionpack-7.0.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (Duration: 1.2ms | Allocations: 887)
+  Rendered /Users/itourei/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/railties-7.0.8/lib/rails/templates/rails/info/routes.html.erb within layouts/application (Duration: 12.2ms | Allocations: 10946)
+  Rendered layout /Users/itourei/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/railties-7.0.8/lib/rails/templates/layouts/application.html.erb (Duration: 13.0ms | Allocations: 11228)
+Completed 200 OK in 21ms (Views: 14.5ms | ActiveRecord: 0.0ms | Allocations: 13469)
+
+
+Started GET "/rails/info/routes" for ::1 at 2024-01-23 20:35:19 +0900
+Processing by Rails::InfoController#routes as HTML
+  Rendering layout /Users/itourei/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/railties-7.0.8/lib/rails/templates/layouts/application.html.erb
+  Rendering /Users/itourei/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/railties-7.0.8/lib/rails/templates/rails/info/routes.html.erb within layouts/application
+  Rendered collection of /Users/itourei/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/actionpack-7.0.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb [39 times] (Duration: 6.5ms | Allocations: 6208)
+  Rendered /Users/itourei/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/actionpack-7.0.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (Duration: 1.0ms | Allocations: 884)
+  Rendered /Users/itourei/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/railties-7.0.8/lib/rails/templates/rails/info/routes.html.erb within layouts/application (Duration: 10.6ms | Allocations: 10934)
+  Rendered layout /Users/itourei/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/railties-7.0.8/lib/rails/templates/layouts/application.html.erb (Duration: 11.3ms | Allocations: 11211)
+Completed 200 OK in 14ms (Views: 12.4ms | ActiveRecord: 0.0ms | Allocations: 11987)
+
+
+Started POST "/todos" for ::1 at 2024-01-23 20:36:10 +0900
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (No route matches [POST] "/todos"):
+  
+Started POST "/todos" for ::1 at 2024-01-23 20:36:14 +0900
+  
+ActionController::RoutingError (No route matches [POST] "/todos"):
+  
+Started POST "/todos" for ::1 at 2024-01-23 20:37:33 +0900
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+AbstractController::ActionNotFound (The action 'create' could not be found for TodosController):
+  
+actionpack (7.0.8) lib/abstract_controller/base.rb:146:in `process'
+actionview (7.0.8) lib/action_view/rendering.rb:39:in `process'
+actionpack (7.0.8) lib/action_controller/metal.rb:188:in `dispatch'
+actionpack (7.0.8) lib/action_controller/metal.rb:251:in `dispatch'
+actionpack (7.0.8) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.0.8) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.0.8) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.8) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.8) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.8) lib/action_dispatch/routing/route_set.rb:852:in `call'
+rack (2.2.8) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.8) lib/rack/etag.rb:27:in `call'
+rack (2.2.8) lib/rack/conditional_get.rb:40:in `call'
+rack (2.2.8) lib/rack/head.rb:12:in `call'
+actionpack (7.0.8) lib/action_dispatch/http/permissions_policy.rb:38:in `call'
+actionpack (7.0.8) lib/action_dispatch/http/content_security_policy.rb:36:in `call'
+rack (2.2.8) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.8) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/cookies.rb:704:in `call'
+activerecord (7.0.8) lib/active_record/migration.rb:638:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.8) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.8) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/show_exceptions.rb:29:in `call'
+railties (7.0.8) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.8) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.8) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.8) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.8) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.8) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.8) lib/rack/method_override.rb:24:in `call'
+rack (2.2.8) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.8) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.8) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.8) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.8) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/host_authorization.rb:138:in `call'
+railties (7.0.8) lib/rails/engine.rb:530:in `call'
+puma (5.6.8) lib/puma/configuration.rb:252:in `call'
+puma (5.6.8) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.8) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.8) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.8) lib/puma/server.rb:443:in `process_client'
+puma (5.6.8) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started POST "/todos" for ::1 at 2024-01-23 20:37:35 +0900
+  
+AbstractController::ActionNotFound (The action 'create' could not be found for TodosController):
+  
+actionpack (7.0.8) lib/abstract_controller/base.rb:146:in `process'
+actionview (7.0.8) lib/action_view/rendering.rb:39:in `process'
+actionpack (7.0.8) lib/action_controller/metal.rb:188:in `dispatch'
+actionpack (7.0.8) lib/action_controller/metal.rb:251:in `dispatch'
+actionpack (7.0.8) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.0.8) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.0.8) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.8) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.8) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.8) lib/action_dispatch/routing/route_set.rb:852:in `call'
+rack (2.2.8) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.8) lib/rack/etag.rb:27:in `call'
+rack (2.2.8) lib/rack/conditional_get.rb:40:in `call'
+rack (2.2.8) lib/rack/head.rb:12:in `call'
+actionpack (7.0.8) lib/action_dispatch/http/permissions_policy.rb:38:in `call'
+actionpack (7.0.8) lib/action_dispatch/http/content_security_policy.rb:36:in `call'
+rack (2.2.8) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.8) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/cookies.rb:704:in `call'
+activerecord (7.0.8) lib/active_record/migration.rb:638:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.8) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.8) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/show_exceptions.rb:29:in `call'
+railties (7.0.8) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.8) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.8) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.8) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.8) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.8) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.8) lib/rack/method_override.rb:24:in `call'
+rack (2.2.8) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.8) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.8) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.8) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.8) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/host_authorization.rb:138:in `call'
+railties (7.0.8) lib/rails/engine.rb:530:in `call'
+puma (5.6.8) lib/puma/configuration.rb:252:in `call'
+puma (5.6.8) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.8) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.8) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.8) lib/puma/server.rb:443:in `process_client'
+puma (5.6.8) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/rails/info/routes" for ::1 at 2024-01-23 20:37:40 +0900
+Processing by Rails::InfoController#routes as HTML
+  Rendering layout /Users/itourei/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/railties-7.0.8/lib/rails/templates/layouts/application.html.erb
+  Rendering /Users/itourei/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/railties-7.0.8/lib/rails/templates/rails/info/routes.html.erb within layouts/application
+  Rendered collection of /Users/itourei/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/actionpack-7.0.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb [39 times] (Duration: 7.6ms | Allocations: 6246)
+  Rendered /Users/itourei/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/actionpack-7.0.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (Duration: 2.6ms | Allocations: 1129)
+  Rendered /Users/itourei/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/railties-7.0.8/lib/rails/templates/rails/info/routes.html.erb within layouts/application (Duration: 14.4ms | Allocations: 11333)
+  Rendered layout /Users/itourei/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/railties-7.0.8/lib/rails/templates/layouts/application.html.erb (Duration: 15.2ms | Allocations: 11615)
+Completed 200 OK in 23ms (Views: 17.0ms | ActiveRecord: 0.0ms | Allocations: 13805)
+
+
+Started POST "/todos" for ::1 at 2024-01-23 20:39:05 +0900
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TodosController#create as */*
+  Parameters: {"todo"=>{"title"=>"買い物に行く"}}
+Can't verify CSRF token authenticity.
+Completed 422 Unprocessable Entity in 0ms (ActiveRecord: 0.0ms | Allocations: 626)
+
+
+  
+ActionController::InvalidAuthenticityToken (Can't verify CSRF token authenticity.):
+  
+actionpack (7.0.8) lib/action_controller/metal/request_forgery_protection.rb:253:in `handle_unverified_request'
+actionpack (7.0.8) lib/action_controller/metal/request_forgery_protection.rb:286:in `handle_unverified_request'
+actionpack (7.0.8) lib/action_controller/metal/request_forgery_protection.rb:275:in `verify_authenticity_token'
+activesupport (7.0.8) lib/active_support/callbacks.rb:400:in `block in make_lambda'
+activesupport (7.0.8) lib/active_support/callbacks.rb:199:in `block (2 levels) in halting'
+actionpack (7.0.8) lib/abstract_controller/callbacks.rb:34:in `block (2 levels) in <module:Callbacks>'
+activesupport (7.0.8) lib/active_support/callbacks.rb:200:in `block in halting'
+activesupport (7.0.8) lib/active_support/callbacks.rb:595:in `block in invoke_before'
+activesupport (7.0.8) lib/active_support/callbacks.rb:595:in `each'
+activesupport (7.0.8) lib/active_support/callbacks.rb:595:in `invoke_before'
+activesupport (7.0.8) lib/active_support/callbacks.rb:116:in `block in run_callbacks'
+activesupport (7.0.8) lib/active_support/callbacks.rb:138:in `run_callbacks'
+actionpack (7.0.8) lib/abstract_controller/callbacks.rb:233:in `process_action'
+actionpack (7.0.8) lib/action_controller/metal/rescue.rb:23:in `process_action'
+actionpack (7.0.8) lib/action_controller/metal/instrumentation.rb:67:in `block in process_action'
+activesupport (7.0.8) lib/active_support/notifications.rb:206:in `block in instrument'
+activesupport (7.0.8) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (7.0.8) lib/active_support/notifications.rb:206:in `instrument'
+actionpack (7.0.8) lib/action_controller/metal/instrumentation.rb:66:in `process_action'
+actionpack (7.0.8) lib/action_controller/metal/params_wrapper.rb:259:in `process_action'
+activerecord (7.0.8) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (7.0.8) lib/abstract_controller/base.rb:151:in `process'
+actionview (7.0.8) lib/action_view/rendering.rb:39:in `process'
+actionpack (7.0.8) lib/action_controller/metal.rb:188:in `dispatch'
+actionpack (7.0.8) lib/action_controller/metal.rb:251:in `dispatch'
+actionpack (7.0.8) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.0.8) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.0.8) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.8) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.8) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.8) lib/action_dispatch/routing/route_set.rb:852:in `call'
+rack (2.2.8) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.8) lib/rack/etag.rb:27:in `call'
+rack (2.2.8) lib/rack/conditional_get.rb:40:in `call'
+rack (2.2.8) lib/rack/head.rb:12:in `call'
+actionpack (7.0.8) lib/action_dispatch/http/permissions_policy.rb:38:in `call'
+actionpack (7.0.8) lib/action_dispatch/http/content_security_policy.rb:36:in `call'
+rack (2.2.8) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.8) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/cookies.rb:704:in `call'
+activerecord (7.0.8) lib/active_record/migration.rb:638:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.8) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.8) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/show_exceptions.rb:29:in `call'
+railties (7.0.8) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.8) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.8) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.8) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.8) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.8) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.8) lib/rack/method_override.rb:24:in `call'
+rack (2.2.8) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.8) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.8) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.8) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.8) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/host_authorization.rb:138:in `call'
+railties (7.0.8) lib/rails/engine.rb:530:in `call'
+puma (5.6.8) lib/puma/configuration.rb:252:in `call'
+puma (5.6.8) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.8) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.8) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.8) lib/puma/server.rb:443:in `process_client'
+puma (5.6.8) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started POST "/todos" for ::1 at 2024-01-23 20:41:39 +0900
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TodosController#create as */*
+  Parameters: {"todo"=>{"title"=>"買い物に行く"}}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/todos_controller.rb:9:in `create'
+  [1m[36mTodo Create (0.7ms)[0m  [1m[32mINSERT INTO "todos" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "買い物に行く"], ["created_at", "2024-01-23 11:41:39.283444"], ["updated_at", "2024-01-23 11:41:39.283444"]]
+  ↳ app/controllers/todos_controller.rb:9:in `create'
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/todos_controller.rb:9:in `create'
+Completed 200 OK in 22ms (Views: 0.5ms | ActiveRecord: 2.6ms | Allocations: 8503)
+
+
+Started POST "/todos" for ::1 at 2024-01-23 20:42:43 +0900
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TodosController#create as */*
+  Parameters: {"todo"=>{"title"=>"買い物に行く"}}
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms | Allocations: 1735)
+
+
+  
+NoMethodError (undefined method `title' for #<ActionController::Parameters {"title"=>"買い物に行く"} permitted: true>):
+  
+app/controllers/todos_controller.rb:7:in `create'
+Started POST "/todos" for ::1 at 2024-01-23 20:43:18 +0900
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TodosController#create as */*
+  Parameters: {"todo"=>{"title"=>"買い物に行く"}}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/todos_controller.rb:9:in `create'
+  [1m[36mTodo Create (0.8ms)[0m  [1m[32mINSERT INTO "todos" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "買い物に行く"], ["created_at", "2024-01-23 11:43:18.411217"], ["updated_at", "2024-01-23 11:43:18.411217"]]
+  ↳ app/controllers/todos_controller.rb:9:in `create'
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/todos_controller.rb:9:in `create'
+Completed 200 OK in 18ms (Views: 0.3ms | ActiveRecord: 2.4ms | Allocations: 8422)
+
+
+Started POST "/todos" for ::1 at 2024-01-23 20:43:54 +0900
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+SyntaxError (/Users/itourei/Desktop/code/api_quest/postman_step2/test_postman/app/controllers/todos_controller.rb:11: syntax error, unexpected ':', expecting =>
+          title : @todo.title }
+                ^
+):
+  
+app/controllers/todos_controller.rb:11: syntax error, unexpected ':', expecting =>
+app/controllers/todos_controller.rb:11: syntax error, unexpected ':', expecting =>
+Started POST "/todos" for ::1 at 2024-01-23 20:44:34 +0900
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+SyntaxError (/Users/itourei/Desktop/code/api_quest/postman_step2/test_postman/app/controllers/todos_controller.rb:12: syntax error, unexpected ':', expecting =>
+          title : @todo.title
+                ^
+):
+  
+app/controllers/todos_controller.rb:12: syntax error, unexpected ':', expecting =>
+app/controllers/todos_controller.rb:12: syntax error, unexpected ':', expecting =>
+Started POST "/todos" for ::1 at 2024-01-23 20:45:33 +0900
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+SyntaxError (/Users/itourei/Desktop/code/api_quest/postman_step2/test_postman/app/controllers/todos_controller.rb:11: syntax error, unexpected ':', expecting `end' or dummy end
+         todo : {
+              ^
+):
+  
+app/controllers/todos_controller.rb:11: syntax error, unexpected ':', expecting `end' or dummy end
+app/controllers/todos_controller.rb:11: syntax error, unexpected ':', expecting `end' or dummy end
+Started POST "/todos" for ::1 at 2024-01-23 20:46:24 +0900
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+SyntaxError (/Users/itourei/Desktop/code/api_quest/postman_step2/test_postman/app/controllers/todos_controller.rb:11: syntax error, unexpected ':', expecting =>
+          'todo' : {
+                 ^
+):
+  
+app/controllers/todos_controller.rb:11: syntax error, unexpected ':', expecting =>
+app/controllers/todos_controller.rb:11: syntax error, unexpected ':', expecting =>
+Started POST "/todos" for ::1 at 2024-01-23 20:49:21 +0900
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+SyntaxError (/Users/itourei/Desktop/code/api_quest/postman_step2/test_postman/app/controllers/todos_controller.rb:11: syntax error, unexpected ':', expecting =>
+          todo : {
+               ^
+):
+  
+app/controllers/todos_controller.rb:11: syntax error, unexpected ':', expecting =>
+app/controllers/todos_controller.rb:11: syntax error, unexpected ':', expecting =>
+Started POST "/todos" for ::1 at 2024-01-23 20:51:21 +0900
+  
+SyntaxError (/Users/itourei/Desktop/code/api_quest/postman_step2/test_postman/app/controllers/todos_controller.rb:11: syntax error, unexpected ':', expecting =>
+          todo : {
+               ^
+):
+  
+app/controllers/todos_controller.rb:11: syntax error, unexpected ':', expecting =>
+app/controllers/todos_controller.rb:11: syntax error, unexpected ':', expecting =>
+Started POST "/todos" for ::1 at 2024-01-23 20:51:34 +0900
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+SyntaxError (/Users/itourei/Desktop/code/api_quest/postman_step2/test_postman/app/controllers/todos_controller.rb:11: syntax error, unexpected ':', expecting =>
+          todo : {
+               ^
+):
+  
+app/controllers/todos_controller.rb:11: syntax error, unexpected ':', expecting =>
+app/controllers/todos_controller.rb:11: syntax error, unexpected ':', expecting =>
+Started POST "/todos" for ::1 at 2024-01-23 20:54:27 +0900
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TodosController#create as */*
+  Parameters: {"todo"=>{"title"=>"買い物に行く"}}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/todos_controller.rb:10:in `create'
+  [1m[36mTodo Create (0.7ms)[0m  [1m[32mINSERT INTO "todos" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "買い物に行く"], ["created_at", "2024-01-23 11:54:27.927527"], ["updated_at", "2024-01-23 11:54:27.927527"]]
+  ↳ app/controllers/todos_controller.rb:10:in `create'
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/todos_controller.rb:10:in `create'
+Completed 200 OK in 18ms (Views: 0.3ms | ActiveRecord: 2.5ms | Allocations: 8430)
+
+
+Started POST "/todos" for ::1 at 2024-01-23 20:56:44 +0900
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TodosController#create as */*
+  Parameters: {"todo"=>{"title"=>"買い物に行く"}}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/todos_controller.rb:10:in `create'
+  [1m[36mTodo Create (0.6ms)[0m  [1m[32mINSERT INTO "todos" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "買い物に行く"], ["created_at", "2024-01-23 11:56:44.644237"], ["updated_at", "2024-01-23 11:56:44.644237"]]
+  ↳ app/controllers/todos_controller.rb:10:in `create'
+  [1m[36mTRANSACTION (1.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/todos_controller.rb:10:in `create'
+Completed 200 OK in 18ms (Views: 0.3ms | ActiveRecord: 2.6ms | Allocations: 8439)
+
+
+Started GET "/todos" for ::1 at 2024-01-23 21:44:01 +0900
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TodosController#index as */*
+  Parameters: {"todo"=>{}}
+  [1m[36mTodo Load (0.2ms)[0m  [1m[34mSELECT "todos".* FROM "todos" /* loading for inspect */ LIMIT ?[0m  [["LIMIT", 11]]
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.3ms | Allocations: 6967)
+
+
+  [1m[36mCACHE Todo Load (0.0ms)[0m  [1m[34mSELECT "todos".* FROM "todos" /* loading for inspect */ LIMIT ?[0m  [["LIMIT", 11]]
+  
+NoMethodError (undefined method `id' for #<ActiveRecord::Relation [#<Todo id: 1, title: "買い物に行く", created_at: "2024-01-23 11:41:39.283444000 +0000", updated_at: "2024-01-23 11:41:39.283444000 +0000">, #<Todo id: 2, title: "買い物に行く", created_at: "2024-01-23 11:43:18.411217000 +0000", updated_at: "2024-01-23 11:43:18.411217000 +0000">, #<Todo id: 3, title: "買い物に行く", created_at: "2024-01-23 11:54:27.927527000 +0000", updated_at: "2024-01-23 11:54:27.927527000 +0000">, #<Todo id: 4, title: "買い物に行く", created_at: "2024-01-23 11:56:44.644237000 +0000", updated_at: "2024-01-23 11:56:44.644237000 +0000">]>):
+  
+app/controllers/todos_controller.rb:8:in `index'
+Started GET "/todos" for ::1 at 2024-01-23 21:44:24 +0900
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TodosController#index as */*
+  Parameters: {"todo"=>{}}
+  [1m[36mTodo Load (0.2ms)[0m  [1m[34mSELECT "todos".* FROM "todos" /* loading for inspect */ LIMIT ?[0m  [["LIMIT", 11]]
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.4ms | Allocations: 6968)
+
+
+  [1m[36mCACHE Todo Load (0.0ms)[0m  [1m[34mSELECT "todos".* FROM "todos" /* loading for inspect */ LIMIT ?[0m  [["LIMIT", 11]]
+  
+NoMethodError (undefined method `id' for #<ActiveRecord::Relation [#<Todo id: 1, title: "買い物に行く", created_at: "2024-01-23 11:41:39.283444000 +0000", updated_at: "2024-01-23 11:41:39.283444000 +0000">, #<Todo id: 2, title: "買い物に行く", created_at: "2024-01-23 11:43:18.411217000 +0000", updated_at: "2024-01-23 11:43:18.411217000 +0000">, #<Todo id: 3, title: "買い物に行く", created_at: "2024-01-23 11:54:27.927527000 +0000", updated_at: "2024-01-23 11:54:27.927527000 +0000">, #<Todo id: 4, title: "買い物に行く", created_at: "2024-01-23 11:56:44.644237000 +0000", updated_at: "2024-01-23 11:56:44.644237000 +0000">]>):
+  
+app/controllers/todos_controller.rb:8:in `index'
+Started GET "/rails/info/routes" for ::1 at 2024-01-23 21:44:36 +0900
+Processing by Rails::InfoController#routes as HTML
+  Rendering layout /Users/itourei/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/railties-7.0.8/lib/rails/templates/layouts/application.html.erb
+  Rendering /Users/itourei/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/railties-7.0.8/lib/rails/templates/rails/info/routes.html.erb within layouts/application
+  Rendered collection of /Users/itourei/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/actionpack-7.0.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb [39 times] (Duration: 8.1ms | Allocations: 6246)
+  Rendered /Users/itourei/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/actionpack-7.0.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (Duration: 3.7ms | Allocations: 1128)
+  Rendered /Users/itourei/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/railties-7.0.8/lib/rails/templates/rails/info/routes.html.erb within layouts/application (Duration: 16.0ms | Allocations: 11329)
+  Rendered layout /Users/itourei/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/railties-7.0.8/lib/rails/templates/layouts/application.html.erb (Duration: 16.7ms | Allocations: 11611)
+Completed 200 OK in 20ms (Views: 18.3ms | ActiveRecord: 0.0ms | Allocations: 12704)
+
+
+Started GET "/rails/info/" for ::1 at 2024-01-23 21:44:41 +0900
+Processing by Rails::InfoController#index as HTML
+Redirected to http://localhost:3000/rails/info/routes
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 798)
+
+
+Started GET "/rails/info/routes" for ::1 at 2024-01-23 21:44:41 +0900
+Processing by Rails::InfoController#routes as HTML
+  Rendering layout /Users/itourei/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/railties-7.0.8/lib/rails/templates/layouts/application.html.erb
+  Rendering /Users/itourei/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/railties-7.0.8/lib/rails/templates/rails/info/routes.html.erb within layouts/application
+  Rendered collection of /Users/itourei/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/actionpack-7.0.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb [39 times] (Duration: 7.0ms | Allocations: 6214)
+  Rendered /Users/itourei/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/actionpack-7.0.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (Duration: 1.2ms | Allocations: 884)
+  Rendered /Users/itourei/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/railties-7.0.8/lib/rails/templates/rails/info/routes.html.erb within layouts/application (Duration: 11.9ms | Allocations: 10940)
+  Rendered layout /Users/itourei/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/railties-7.0.8/lib/rails/templates/layouts/application.html.erb (Duration: 12.6ms | Allocations: 11218)
+Completed 200 OK in 15ms (Views: 13.9ms | ActiveRecord: 0.0ms | Allocations: 11994)
+
+
+Started GET "/rails/info" for ::1 at 2024-01-23 21:44:44 +0900
+Processing by Rails::InfoController#index as HTML
+Redirected to http://localhost:3000/rails/info/routes
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 199)
+
+
+Started GET "/rails/info/routes" for ::1 at 2024-01-23 21:44:44 +0900
+Processing by Rails::InfoController#routes as HTML
+  Rendering layout /Users/itourei/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/railties-7.0.8/lib/rails/templates/layouts/application.html.erb
+  Rendering /Users/itourei/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/railties-7.0.8/lib/rails/templates/rails/info/routes.html.erb within layouts/application
+  Rendered collection of /Users/itourei/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/actionpack-7.0.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb [39 times] (Duration: 6.0ms | Allocations: 5920)
+  Rendered /Users/itourei/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/actionpack-7.0.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (Duration: 0.2ms | Allocations: 166)
+  Rendered /Users/itourei/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/railties-7.0.8/lib/rails/templates/rails/info/routes.html.erb within layouts/application (Duration: 8.1ms | Allocations: 9550)
+  Rendered layout /Users/itourei/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/railties-7.0.8/lib/rails/templates/layouts/application.html.erb (Duration: 8.2ms | Allocations: 9634)
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.0ms | Allocations: 9889)
+
+
+Started GET "/todos" for ::1 at 2024-01-23 21:52:12 +0900
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TodosController#index as */*
+  Parameters: {"todo"=>{}}
+  [1m[36mTodo Load (0.2ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/controllers/todos_controller.rb:5:in `index'
+Completed 200 OK in 14ms (Views: 7.5ms | ActiveRecord: 0.7ms | Allocations: 6223)
+
+
+Started GET "/todos" for ::1 at 2024-01-23 21:53:24 +0900
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TodosController#index as */*
+  Parameters: {"todo"=>{}}
+  [1m[36mTodo Load (0.2ms)[0m  [1m[34mSELECT "todos".* FROM "todos" /* loading for inspect */ LIMIT ?[0m  [["LIMIT", 11]]
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.3ms | Allocations: 6967)
+
+
+  [1m[36mCACHE Todo Load (0.0ms)[0m  [1m[34mSELECT "todos".* FROM "todos" /* loading for inspect */ LIMIT ?[0m  [["LIMIT", 11]]
+  
+NoMethodError (undefined method `params' for #<ActiveRecord::Relation [#<Todo id: 1, title: "買い物に行く", created_at: "2024-01-23 11:41:39.283444000 +0000", updated_at: "2024-01-23 11:41:39.283444000 +0000">, #<Todo id: 2, title: "買い物に行く", created_at: "2024-01-23 11:43:18.411217000 +0000", updated_at: "2024-01-23 11:43:18.411217000 +0000">, #<Todo id: 3, title: "買い物に行く", created_at: "2024-01-23 11:54:27.927527000 +0000", updated_at: "2024-01-23 11:54:27.927527000 +0000">, #<Todo id: 4, title: "買い物に行く", created_at: "2024-01-23 11:56:44.644237000 +0000", updated_at: "2024-01-23 11:56:44.644237000 +0000">]>):
+  
+app/controllers/todos_controller.rb:8:in `index'
+Started GET "/todos" for ::1 at 2024-01-23 21:53:41 +0900
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TodosController#index as */*
+  Parameters: {"todo"=>{}}
+  [1m[36mTodo Load (0.2ms)[0m  [1m[34mSELECT "todos".* FROM "todos" /* loading for inspect */ LIMIT ?[0m  [["LIMIT", 11]]
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.4ms | Allocations: 6968)
+
+
+  [1m[36mCACHE Todo Load (0.0ms)[0m  [1m[34mSELECT "todos".* FROM "todos" /* loading for inspect */ LIMIT ?[0m  [["LIMIT", 11]]
+  
+NoMethodError (undefined method `params' for #<ActiveRecord::Relation [#<Todo id: 1, title: "買い物に行く", created_at: "2024-01-23 11:41:39.283444000 +0000", updated_at: "2024-01-23 11:41:39.283444000 +0000">, #<Todo id: 2, title: "買い物に行く", created_at: "2024-01-23 11:43:18.411217000 +0000", updated_at: "2024-01-23 11:43:18.411217000 +0000">, #<Todo id: 3, title: "買い物に行く", created_at: "2024-01-23 11:54:27.927527000 +0000", updated_at: "2024-01-23 11:54:27.927527000 +0000">, #<Todo id: 4, title: "買い物に行く", created_at: "2024-01-23 11:56:44.644237000 +0000", updated_at: "2024-01-23 11:56:44.644237000 +0000">]>):
+  
+app/controllers/todos_controller.rb:8:in `index'
+Started GET "/todos" for ::1 at 2024-01-23 21:58:46 +0900
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TodosController#index as */*
+  Parameters: {"todo"=>{}}
+  [1m[36mTodo Load (0.2ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/controllers/todos_controller.rb:5:in `index'
+Completed 200 OK in 14ms (Views: 7.9ms | ActiveRecord: 0.9ms | Allocations: 6167)
+
+
+Started GET "/todos" for ::1 at 2024-01-23 22:01:39 +0900
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+SyntaxError (/Users/itourei/Desktop/code/api_quest/postman_step2/test_postman/app/controllers/todos_controller.rb:4: syntax error, unexpected '='
+    =begin
+    ^
+/Users/itourei/Desktop/code/api_quest/postman_step2/test_postman/app/controllers/todos_controller.rb:13: syntax error, unexpected '='
+    =end
+    ^
+/Users/itourei/Desktop/code/api_quest/postman_step2/test_postman/app/controllers/todos_controller.rb:68: syntax error, unexpected `end'):
+  
+app/controllers/todos_controller.rb:4: syntax error, unexpected '='
+app/controllers/todos_controller.rb:13: syntax error, unexpected '='
+app/controllers/todos_controller.rb:68: syntax error, unexpected `end'
+app/controllers/todos_controller.rb:4: syntax error, unexpected '='
+app/controllers/todos_controller.rb:13: syntax error, unexpected '='
+app/controllers/todos_controller.rb:68: syntax error, unexpected `end'
+Started GET "/todos" for ::1 at 2024-01-23 22:01:43 +0900
+  
+SyntaxError (/Users/itourei/Desktop/code/api_quest/postman_step2/test_postman/app/controllers/todos_controller.rb:4: syntax error, unexpected '='
+    =begin
+    ^
+/Users/itourei/Desktop/code/api_quest/postman_step2/test_postman/app/controllers/todos_controller.rb:13: syntax error, unexpected '='
+    =end
+    ^
+/Users/itourei/Desktop/code/api_quest/postman_step2/test_postman/app/controllers/todos_controller.rb:68: syntax error, unexpected `end'):
+  
+app/controllers/todos_controller.rb:4: syntax error, unexpected '='
+app/controllers/todos_controller.rb:13: syntax error, unexpected '='
+app/controllers/todos_controller.rb:68: syntax error, unexpected `end'
+app/controllers/todos_controller.rb:4: syntax error, unexpected '='
+app/controllers/todos_controller.rb:13: syntax error, unexpected '='
+app/controllers/todos_controller.rb:68: syntax error, unexpected `end'
+Started GET "/todos" for ::1 at 2024-01-23 22:03:47 +0900
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TodosController#index as */*
+  Parameters: {"todo"=>{}}
+  [1m[36mTodo Load (0.2ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/controllers/todos_controller.rb:18:in `index'
+Completed 200 OK in 14ms (Views: 0.3ms | ActiveRecord: 0.9ms | Allocations: 5615)
+
+
+Started GET "/todos/2" for ::1 at 2024-01-24 19:40:19 +0900
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TodosController#show as */*
+  Parameters: {"todo"=>{"title"=>"本を買う"}, "id"=>"2"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  Rendered todos/show.html.erb within layouts/application (Duration: 5.4ms | Allocations: 297)
+  Rendered layout layouts/application.html.erb (Duration: 108.3ms | Allocations: 32858)
+Completed 200 OK in 131ms (Views: 119.1ms | ActiveRecord: 0.0ms | Allocations: 35259)
+
+
+Started GET "/todos/2" for ::1 at 2024-01-24 19:48:20 +0900
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TodosController#show as */*
+  Parameters: {"todo"=>{"title"=>"本を買う"}, "id"=>"2"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  Rendered todos/show.html.erb within layouts/application (Duration: 1.5ms | Allocations: 297)
+  Rendered layout layouts/application.html.erb (Duration: 103.1ms | Allocations: 33078)
+Completed 200 OK in 113ms (Views: 108.1ms | ActiveRecord: 0.0ms | Allocations: 35476)
+
+
+Started PUT "/todos/2" for ::1 at 2024-01-24 19:48:31 +0900
+Processing by TodosController#update as */*
+  Parameters: {"todo"=>{"title"=>"本を買う"}, "id"=>"2"}
+[31mUnpermitted parameter: :title. Context: { controller: TodosController, action: update, request: #<ActionDispatch::Request:0x000000010e36ae70>, params: {"todo"=>{"title"=>"本を買う"}, "controller"=>"todos", "action"=>"update", "id"=>"2"} }[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/todos_controller.rb:44:in `update'
+  [1m[36mTodo Create (0.5ms)[0m  [1m[32mINSERT INTO "todos" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "本を買う"], ["created_at", "2024-01-24 10:48:31.722047"], ["updated_at", "2024-01-24 10:48:31.722047"]]
+  ↳ app/controllers/todos_controller.rb:44:in `update'
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/todos_controller.rb:44:in `update'
+Completed 200 OK in 14ms (Views: 0.2ms | ActiveRecord: 1.8ms | Allocations: 7190)
+
+
+Started PUT "/todos/2" for ::1 at 2024-01-24 19:49:17 +0900
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TodosController#update as */*
+  Parameters: {"todo"=>{"title"=>"本を買う"}, "id"=>"2"}
+[31mUnpermitted parameter: :title. Context: { controller: TodosController, action: update, request: #<ActionDispatch::Request:0x00000001077a0be0>, params: {"todo"=>{"title"=>"本を買う"}, "controller"=>"todos", "action"=>"update", "id"=>"2"} }[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/todos_controller.rb:44:in `update'
+  [1m[36mTodo Create (0.7ms)[0m  [1m[32mINSERT INTO "todos" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "本を買う"], ["created_at", "2024-01-24 10:49:18.127836"], ["updated_at", "2024-01-24 10:49:18.127836"]]
+  ↳ app/controllers/todos_controller.rb:44:in `update'
+  [1m[36mTRANSACTION (1.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/todos_controller.rb:44:in `update'
+Completed 200 OK in 20ms (Views: 0.9ms | ActiveRecord: 2.7ms | Allocations: 8605)
+
+
+Started PUT "/todos/2" for ::1 at 2024-01-24 19:51:15 +0900
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TodosController#update as */*
+  Parameters: {"todo"=>{"title"=>"本を買う"}, "id"=>"2"}
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.5ms | Allocations: 5718)
+
+
+  
+ArgumentError (When assigning attributes, you must pass a hash as an argument, String passed.):
+  
+app/controllers/todos_controller.rb:41:in `update'
+Started PUT "/todos/2" for ::1 at 2024-01-24 19:51:59 +0900
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TodosController#update as */*
+  Parameters: {"todo"=>{"title"=>"本を買う"}, "id"=>"2"}
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.7ms | Allocations: 5717)
+
+
+  
+ArgumentError (When assigning attributes, you must pass a hash as an argument, String passed.):
+  
+app/controllers/todos_controller.rb:41:in `update'
+Started PUT "/todos/2" for ::1 at 2024-01-24 19:53:16 +0900
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TodosController#update as */*
+  Parameters: {"todo"=>{"title"=>"本を買う"}, "id"=>"2"}
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.5ms | Allocations: 5717)
+
+
+  
+ArgumentError (When assigning attributes, you must pass a hash as an argument, String passed.):
+  
+app/controllers/todos_controller.rb:41:in `update'
+Started PUT "/todos/2" for ::1 at 2024-01-24 20:00:56 +0900
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TodosController#update as */*
+  Parameters: {"todo"=>{"title"=>"本を買う"}, "id"=>"2"}
+  [1m[36mTodo Load (0.2ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:40:in `update'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/todos_controller.rb:43:in `update'
+  [1m[36mTodo Create (0.7ms)[0m  [1m[32mINSERT INTO "todos" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "本を買う"], ["created_at", "2024-01-24 11:00:57.183986"], ["updated_at", "2024-01-24 11:00:57.183986"]]
+  ↳ app/controllers/todos_controller.rb:43:in `update'
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/todos_controller.rb:43:in `update'
+Completed 200 OK in 22ms (Views: 0.3ms | ActiveRecord: 2.4ms | Allocations: 10650)
+
+
+Started PUT "/todos/2" for ::1 at 2024-01-24 20:02:37 +0900
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TodosController#update as */*
+  Parameters: {"todo"=>{"title"=>"本を買う"}, "id"=>"2"}
+  [1m[36mTodo Load (0.2ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:40:in `update'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/todos_controller.rb:43:in `update'
+  [1m[36mTodo Create (0.7ms)[0m  [1m[32mINSERT INTO "todos" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "本を買う"], ["created_at", "2024-01-24 11:02:38.209209"], ["updated_at", "2024-01-24 11:02:38.209209"]]
+  ↳ app/controllers/todos_controller.rb:43:in `update'
+  [1m[36mTRANSACTION (1.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/todos_controller.rb:43:in `update'
+Completed 200 OK in 23ms (Views: 0.7ms | ActiveRecord: 3.5ms | Allocations: 10798)
+
+
+Started PUT "/todos/2" for ::1 at 2024-01-24 20:03:24 +0900
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TodosController#update as */*
+  Parameters: {"todo"=>{"title"=>"本を買う"}, "id"=>"2"}
+  [1m[36mTodo Load (0.2ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:40:in `update'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/todos_controller.rb:43:in `update'
+  [1m[36mTodo Update (0.6ms)[0m  [1m[33mUPDATE "todos" SET "title" = ?, "updated_at" = ? WHERE "todos"."id" = ?[0m  [["title", "本を買う"], ["updated_at", "2024-01-24 11:03:25.097079"], ["id", 2]]
+  ↳ app/controllers/todos_controller.rb:43:in `update'
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/todos_controller.rb:43:in `update'
+Completed 200 OK in 22ms (Views: 0.3ms | ActiveRecord: 2.5ms | Allocations: 10900)
+
+
+Started PUT "/todos/2" for ::1 at 2024-01-24 20:28:49 +0900
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TodosController#update as */*
+  Parameters: {"todo"=>{"title"=>"本を買う"}, "id"=>"2"}
+  [1m[36mTodo Load (0.2ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:40:in `update'
+Completed 200 OK in 20ms (Views: 0.7ms | ActiveRecord: 0.8ms | Allocations: 8378)
+
+
+Started DELETE "/todos/2" for ::1 at 2024-01-24 20:32:33 +0900
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+AbstractController::ActionNotFound (The action 'destroy' could not be found for TodosController):
+  
+actionpack (7.0.8) lib/abstract_controller/base.rb:146:in `process'
+actionview (7.0.8) lib/action_view/rendering.rb:39:in `process'
+actionpack (7.0.8) lib/action_controller/metal.rb:188:in `dispatch'
+actionpack (7.0.8) lib/action_controller/metal.rb:251:in `dispatch'
+actionpack (7.0.8) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.0.8) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.0.8) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.8) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.8) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.8) lib/action_dispatch/routing/route_set.rb:852:in `call'
+rack (2.2.8) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.8) lib/rack/etag.rb:27:in `call'
+rack (2.2.8) lib/rack/conditional_get.rb:40:in `call'
+rack (2.2.8) lib/rack/head.rb:12:in `call'
+actionpack (7.0.8) lib/action_dispatch/http/permissions_policy.rb:38:in `call'
+actionpack (7.0.8) lib/action_dispatch/http/content_security_policy.rb:36:in `call'
+rack (2.2.8) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.8) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/cookies.rb:704:in `call'
+activerecord (7.0.8) lib/active_record/migration.rb:638:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.8) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.8) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/show_exceptions.rb:29:in `call'
+railties (7.0.8) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.8) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.8) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.8) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.8) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.8) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.8) lib/rack/method_override.rb:24:in `call'
+rack (2.2.8) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.8) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.8) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.8) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.8) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/host_authorization.rb:138:in `call'
+railties (7.0.8) lib/rails/engine.rb:530:in `call'
+puma (5.6.8) lib/puma/configuration.rb:252:in `call'
+puma (5.6.8) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.8) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.8) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.8) lib/puma/server.rb:443:in `process_client'
+puma (5.6.8) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started DELETE "/todos/2" for ::1 at 2024-01-24 20:33:06 +0900
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+AbstractController::ActionNotFound (The action 'destroy' could not be found for TodosController):
+  
+actionpack (7.0.8) lib/abstract_controller/base.rb:146:in `process'
+actionview (7.0.8) lib/action_view/rendering.rb:39:in `process'
+actionpack (7.0.8) lib/action_controller/metal.rb:188:in `dispatch'
+actionpack (7.0.8) lib/action_controller/metal.rb:251:in `dispatch'
+actionpack (7.0.8) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.0.8) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.0.8) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.8) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.8) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.8) lib/action_dispatch/routing/route_set.rb:852:in `call'
+rack (2.2.8) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.8) lib/rack/etag.rb:27:in `call'
+rack (2.2.8) lib/rack/conditional_get.rb:40:in `call'
+rack (2.2.8) lib/rack/head.rb:12:in `call'
+actionpack (7.0.8) lib/action_dispatch/http/permissions_policy.rb:38:in `call'
+actionpack (7.0.8) lib/action_dispatch/http/content_security_policy.rb:36:in `call'
+rack (2.2.8) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.8) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/cookies.rb:704:in `call'
+activerecord (7.0.8) lib/active_record/migration.rb:638:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.8) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.8) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/show_exceptions.rb:29:in `call'
+railties (7.0.8) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.8) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.8) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.8) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.8) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.8) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.8) lib/rack/method_override.rb:24:in `call'
+rack (2.2.8) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.8) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.8) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.8) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.8) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/host_authorization.rb:138:in `call'
+railties (7.0.8) lib/rails/engine.rb:530:in `call'
+puma (5.6.8) lib/puma/configuration.rb:252:in `call'
+puma (5.6.8) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.8) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.8) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.8) lib/puma/server.rb:443:in `process_client'
+puma (5.6.8) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/rails/info/routes" for ::1 at 2024-01-24 20:33:26 +0900
+Processing by Rails::InfoController#routes as HTML
+  Rendering layout /Users/itourei/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/railties-7.0.8/lib/rails/templates/layouts/application.html.erb
+  Rendering /Users/itourei/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/railties-7.0.8/lib/rails/templates/rails/info/routes.html.erb within layouts/application
+  Rendered collection of /Users/itourei/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/actionpack-7.0.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb [39 times] (Duration: 9.3ms | Allocations: 6246)
+  Rendered /Users/itourei/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/actionpack-7.0.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (Duration: 6.2ms | Allocations: 1130)
+  Rendered /Users/itourei/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/railties-7.0.8/lib/rails/templates/rails/info/routes.html.erb within layouts/application (Duration: 20.6ms | Allocations: 11334)
+  Rendered layout /Users/itourei/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/railties-7.0.8/lib/rails/templates/layouts/application.html.erb (Duration: 22.8ms | Allocations: 11616)
+Completed 200 OK in 31ms (Views: 24.8ms | ActiveRecord: 0.0ms | Allocations: 13849)
+
+
+Started DELETE "/todos/2" for ::1 at 2024-01-24 20:34:43 +0900
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TodosController#destroy as */*
+  Parameters: {"id"=>"2", "todo"=>{}}
+  [1m[36mTodo Load (0.2ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:57:in `destroy'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/todos_controller.rb:58:in `destroy'
+  [1m[36mTodo Destroy (0.5ms)[0m  [1m[31mDELETE FROM "todos" WHERE "todos"."id" = ?[0m  [["id", 2]]
+  ↳ app/controllers/todos_controller.rb:58:in `destroy'
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/todos_controller.rb:58:in `destroy'
+No template found for TodosController#destroy, rendering head :no_content
+Completed 204 No Content in 20ms (ActiveRecord: 2.6ms | Allocations: 9356)
+
+
+Started GET "/api/todos" for ::1 at 2024-01-25 22:38:56 +0900
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (No route matches [GET] "/api/todos"):
+  
+Started GET "/todos" for ::1 at 2024-01-25 22:40:21 +0900
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TodosController#index as */*
+  [1m[36mTodo Load (0.1ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/controllers/todos_controller.rb:9:in `index'
+Completed 200 OK in 19ms (Views: 0.3ms | ActiveRecord: 0.5ms | Allocations: 6679)
+
+
+Started POST "/todos" for ::1 at 2024-01-25 22:43:02 +0900
+Processing by TodosController#create as */*
+  Parameters: {"todo"=>{"title"=>"いろんなところに行く"}}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/todos_controller.rb:24:in `create'
+  [1m[36mTodo Create (0.5ms)[0m  [1m[32mINSERT INTO "todos" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "いろんなところに行く"], ["created_at", "2024-01-25 13:43:02.099180"], ["updated_at", "2024-01-25 13:43:02.099180"]]
+  ↳ app/controllers/todos_controller.rb:24:in `create'
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/todos_controller.rb:24:in `create'
+Completed 200 OK in 6ms (Views: 0.1ms | ActiveRecord: 1.5ms | Allocations: 3186)
+
+
+Started GET "/todos" for ::1 at 2024-01-25 22:43:02 +0900
+Processing by TodosController#index as */*
+  [1m[36mTodo Load (0.1ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/controllers/todos_controller.rb:9:in `index'
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.1ms | Allocations: 878)
+
+
+Started DELETE "/todos/9" for ::1 at 2024-01-25 22:43:10 +0900
+Processing by TodosController#destroy as */*
+  Parameters: {"id"=>"9"}
+  [1m[36mTodo Load (0.1ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = ? LIMIT ?[0m  [["id", 9], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:57:in `destroy'
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/todos_controller.rb:58:in `destroy'
+  [1m[36mTodo Destroy (0.3ms)[0m  [1m[31mDELETE FROM "todos" WHERE "todos"."id" = ?[0m  [["id", 9]]
+  ↳ app/controllers/todos_controller.rb:58:in `destroy'
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/todos_controller.rb:58:in `destroy'
+No template found for TodosController#destroy, rendering head :no_content
+Completed 204 No Content in 8ms (ActiveRecord: 1.3ms | Allocations: 4512)
+
+
+Started GET "/todos" for ::1 at 2024-01-25 22:43:10 +0900
+Processing by TodosController#index as */*
+  [1m[36mTodo Load (0.1ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/controllers/todos_controller.rb:9:in `index'
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.1ms | Allocations: 846)
+
+
+Started PUT "/todos/8" for ::1 at 2024-01-25 22:43:25 +0900
+Processing by TodosController#update as */*
+  Parameters: {"todo"=>{"title"=>"何するか考える"}, "id"=>"8"}
+  [1m[36mTodo Load (0.1ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = ? LIMIT ?[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:40:in `update'
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.1ms | Allocations: 832)
+
+
+Started GET "/todos" for ::1 at 2024-01-25 22:43:25 +0900
+Processing by TodosController#index as */*
+  [1m[36mTodo Load (0.1ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/controllers/todos_controller.rb:9:in `index'
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.1ms | Allocations: 848)
+
+
+Started GET "/todos" for ::1 at 2024-01-25 22:43:28 +0900
+Processing by TodosController#index as */*
+  [1m[36mTodo Load (0.1ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/controllers/todos_controller.rb:9:in `index'
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.1ms | Allocations: 856)
+
+
+Started GET "/rails/info/routes" for ::1 at 2024-01-25 22:44:45 +0900
+Processing by Rails::InfoController#routes as HTML
+  Rendering layout /Users/itourei/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/railties-7.0.8/lib/rails/templates/layouts/application.html.erb
+  Rendering /Users/itourei/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/railties-7.0.8/lib/rails/templates/rails/info/routes.html.erb within layouts/application
+  Rendered collection of /Users/itourei/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/actionpack-7.0.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb [39 times] (Duration: 8.5ms | Allocations: 6458)
+  Rendered /Users/itourei/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/actionpack-7.0.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (Duration: 3.4ms | Allocations: 1152)
+  Rendered /Users/itourei/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/railties-7.0.8/lib/rails/templates/rails/info/routes.html.erb within layouts/application (Duration: 17.4ms | Allocations: 11785)
+  Rendered layout /Users/itourei/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/railties-7.0.8/lib/rails/templates/layouts/application.html.erb (Duration: 18.9ms | Allocations: 12084)
+Completed 200 OK in 30ms (Views: 22.5ms | ActiveRecord: 0.0ms | Allocations: 14613)
+
+
+Started PUT "/todos/1" for ::1 at 2024-01-25 22:51:35 +0900
+Processing by TodosController#update as */*
+  Parameters: {"todo"=>{"title"=>"色々する"}, "id"=>"1"}
+  [1m[36mTodo Load (0.1ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:40:in `update'
+Completed 200 OK in 5ms (Views: 0.1ms | ActiveRecord: 0.4ms | Allocations: 2677)
+
+
+Started GET "/todos" for ::1 at 2024-01-25 22:51:36 +0900
+Processing by TodosController#index as */*
+  [1m[36mTodo Load (0.2ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/controllers/todos_controller.rb:9:in `index'
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.2ms | Allocations: 892)
+
+
+Started GET "/todos" for ::1 at 2024-01-25 22:51:38 +0900
+Processing by TodosController#index as */*
+  [1m[36mTodo Load (0.1ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/controllers/todos_controller.rb:9:in `index'
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.1ms | Allocations: 847)
+
+
+Started GET "/todos" for ::1 at 2024-01-25 22:52:59 +0900
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TodosController#index as */*
+  [1m[36mTodo Load (0.1ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/controllers/todos_controller.rb:9:in `index'
+Completed 200 OK in 13ms (Views: 0.3ms | ActiveRecord: 0.5ms | Allocations: 6679)
+
+
+Started PUT "/todos/1" for ::1 at 2024-01-25 22:53:05 +0900
+Processing by TodosController#update as */*
+  Parameters: {"todo"=>{"title"=>"色々"}, "id"=>"1"}
+  [1m[36mTodo Load (0.3ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:40:in `update'
+Completed 200 OK in 6ms (Views: 0.1ms | ActiveRecord: 0.3ms | Allocations: 3040)
+
+
+Started GET "/todos" for ::1 at 2024-01-25 22:53:05 +0900
+Processing by TodosController#index as */*
+  [1m[36mTodo Load (0.1ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/controllers/todos_controller.rb:9:in `index'
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.1ms | Allocations: 848)
+
+
+Started GET "/todos" for ::1 at 2024-01-25 22:53:07 +0900
+Processing by TodosController#index as */*
+  [1m[36mTodo Load (0.1ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/controllers/todos_controller.rb:9:in `index'
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.1ms | Allocations: 856)
+
+
+Started GET "/todos" for ::1 at 2024-01-25 22:57:36 +0900
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TodosController#index as */*
+  [1m[36mTodo Load (0.1ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/controllers/todos_controller.rb:9:in `index'
+Completed 200 OK in 12ms (Views: 0.3ms | ActiveRecord: 0.5ms | Allocations: 6679)
+
+
+Started PUT "/todos/1" for ::1 at 2024-01-25 22:57:42 +0900
+Processing by TodosController#update as */*
+  Parameters: {"todo"=>{"title"=>"色々"}, "id"=>"1"}
+  [1m[36mTodo Load (0.1ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:39:in `update'
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.1ms | Allocations: 2782)
+
+
+  
+NoMethodError (undefined method `attributes=' for nil:NilClass):
+  
+app/controllers/todos_controller.rb:40:in `update'
+Started GET "/todos" for ::1 at 2024-01-25 22:57:44 +0900
+Processing by TodosController#index as */*
+  [1m[36mTodo Load (0.1ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/controllers/todos_controller.rb:9:in `index'
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.1ms | Allocations: 856)
+
+
+Started GET "/todos" for ::1 at 2024-01-25 22:58:58 +0900
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TodosController#index as */*
+  [1m[36mTodo Load (0.1ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/controllers/todos_controller.rb:9:in `index'
+Completed 200 OK in 11ms (Views: 0.3ms | ActiveRecord: 0.5ms | Allocations: 6679)
+
+
+Started PUT "/todos/1" for ::1 at 2024-01-25 22:59:03 +0900
+Processing by TodosController#update as */*
+  Parameters: {"todo"=>{"title"=>"色々"}, "id"=>"1"}
+  [1m[36mTodo Load (0.1ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:39:in `update'
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.1ms | Allocations: 2782)
+
+
+  
+NoMethodError (undefined method `attributes=' for nil:NilClass):
+  
+app/controllers/todos_controller.rb:40:in `update'
+Started GET "/todos" for ::1 at 2024-01-25 22:59:06 +0900
+Processing by TodosController#index as */*
+  [1m[36mTodo Load (0.1ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/controllers/todos_controller.rb:9:in `index'
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.1ms | Allocations: 856)
+
+
+Started GET "/todos" for ::1 at 2024-01-25 23:00:42 +0900
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TodosController#index as */*
+  [1m[36mTodo Load (0.1ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/controllers/todos_controller.rb:9:in `index'
+Completed 200 OK in 12ms (Views: 0.3ms | ActiveRecord: 0.8ms | Allocations: 6679)
+
+
+Started GET "/todos" for ::1 at 2024-01-25 23:00:43 +0900
+Processing by TodosController#index as */*
+  [1m[36mTodo Load (0.1ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/controllers/todos_controller.rb:9:in `index'
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.1ms | Allocations: 860)
+
+
+Started PUT "/todos/1" for ::1 at 2024-01-25 23:00:48 +0900
+Processing by TodosController#update as */*
+  Parameters: {"todo"=>{"title"=>"色々"}, "id"=>"1"}
+  [1m[36mTodo Load (0.2ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:39:in `update'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/todos_controller.rb:41:in `update'
+  [1m[36mTodo Update (0.8ms)[0m  [1m[33mUPDATE "todos" SET "title" = ?, "updated_at" = ? WHERE "todos"."id" = ?[0m  [["title", "色々"], ["updated_at", "2024-01-25 14:00:48.699501"], ["id", 1]]
+  ↳ app/controllers/todos_controller.rb:41:in `update'
+  [1m[36mTRANSACTION (1.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/todos_controller.rb:41:in `update'
+Completed 200 OK in 10ms (Views: 0.2ms | ActiveRecord: 2.4ms | Allocations: 5483)
+
+
+Started GET "/todos" for ::1 at 2024-01-25 23:00:48 +0900
+Processing by TodosController#index as */*
+  [1m[36mTodo Load (0.1ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/controllers/todos_controller.rb:9:in `index'
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.1ms | Allocations: 845)
+
+
+Started GET "/todos" for ::1 at 2024-01-25 23:00:51 +0900
+Processing by TodosController#index as */*
+  [1m[36mTodo Load (0.1ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/controllers/todos_controller.rb:9:in `index'
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.1ms | Allocations: 855)
+
+
+Started GET "/todos" for ::1 at 2024-01-25 23:01:48 +0900
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+SyntaxError (/Users/itourei/Desktop/code/api_quest/postman_step2/test_postman/app/controllers/todos_controller.rb:91: syntax error, unexpected `end'):
+  
+app/controllers/todos_controller.rb:91: syntax error, unexpected `end'
+app/controllers/todos_controller.rb:91: syntax error, unexpected `end'
+Started GET "/todos" for ::1 at 2024-01-25 23:01:52 +0900
+  
+SyntaxError (/Users/itourei/Desktop/code/api_quest/postman_step2/test_postman/app/controllers/todos_controller.rb:91: syntax error, unexpected `end'):
+  
+app/controllers/todos_controller.rb:91: syntax error, unexpected `end'
+app/controllers/todos_controller.rb:91: syntax error, unexpected `end'
+Started GET "/todos" for ::1 at 2024-01-25 23:02:18 +0900
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+SyntaxError (/Users/itourei/Desktop/code/api_quest/postman_step2/test_postman/app/controllers/todos_controller.rb:91: syntax error, unexpected `end'):
+  
+app/controllers/todos_controller.rb:91: syntax error, unexpected `end'
+app/controllers/todos_controller.rb:91: syntax error, unexpected `end'
+Started GET "/todos" for ::1 at 2024-01-25 23:02:20 +0900
+  
+SyntaxError (/Users/itourei/Desktop/code/api_quest/postman_step2/test_postman/app/controllers/todos_controller.rb:91: syntax error, unexpected `end'):
+  
+app/controllers/todos_controller.rb:91: syntax error, unexpected `end'
+app/controllers/todos_controller.rb:91: syntax error, unexpected `end'
+Started GET "/todos" for ::1 at 2024-01-25 23:02:48 +0900
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TodosController#index as */*
+  [1m[36mTodo Load (0.1ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/controllers/todos_controller.rb:9:in `index'
+Completed 200 OK in 12ms (Views: 0.3ms | ActiveRecord: 0.5ms | Allocations: 6678)
+
+
+Started PUT "/todos/3" for ::1 at 2024-01-25 23:02:55 +0900
+Processing by TodosController#update as */*
+  Parameters: {"todo"=>{"title"=>"ババ抜き"}, "id"=>"3"}
+  [1m[36mTodo Load (0.2ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:39:in `update'
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/todos_controller.rb:41:in `update'
+  [1m[36mTodo Update (0.6ms)[0m  [1m[33mUPDATE "todos" SET "title" = ?, "updated_at" = ? WHERE "todos"."id" = ?[0m  [["title", "ババ抜き"], ["updated_at", "2024-01-25 14:02:55.774379"], ["id", 3]]
+  ↳ app/controllers/todos_controller.rb:41:in `update'
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/todos_controller.rb:41:in `update'
+Completed 200 OK in 9ms (Views: 0.2ms | ActiveRecord: 2.1ms | Allocations: 5486)
+
+
+Started GET "/todos" for ::1 at 2024-01-25 23:02:55 +0900
+Processing by TodosController#index as */*
+  [1m[36mTodo Load (0.1ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/controllers/todos_controller.rb:9:in `index'
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.1ms | Allocations: 844)
+
+
+Started GET "/todos" for ::1 at 2024-01-25 23:03:36 +0900
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TodosController#index as */*
+  [1m[36mTodo Load (0.1ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/controllers/todos_controller.rb:9:in `index'
+Completed 200 OK in 12ms (Views: 0.3ms | ActiveRecord: 0.5ms | Allocations: 6677)
+
+
+Started PUT "/todos/5" for ::1 at 2024-01-25 23:03:42 +0900
+Processing by TodosController#update as */*
+  Parameters: {"todo"=>{"title"=>"かか"}, "id"=>"5"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/update.html.erb within layouts/application
+  Rendered todos/update.html.erb within layouts/application (Duration: 2.3ms | Allocations: 294)
+  Rendered layout layouts/application.html.erb (Duration: 84.2ms | Allocations: 32570)
+Completed 200 OK in 90ms (Views: 88.7ms | ActiveRecord: 0.0ms | Allocations: 33669)
+
+
