@@ -28,6 +28,7 @@ React の公式ドキュメントの 「レンダーとコミット」 を読み
 3. state はスナップショット
 以下のコードは、押しボタンカウンターアプリに「+2」ボタンを追加したものです。意図としては「+2」ボタンをクリックするとカウンターの数値が 2 増えるようにしたいのですが、実際には 1 増えるだけです。なぜなのか、その理由を説明してください。
 
+```
 import { useState } from 'react';
 
 export default function CounterApp() {
@@ -48,6 +49,10 @@ export default function CounterApp() {
     </div>
   );
 }
+
+```
+
+
 4. 複数回の state の更新をキューに入れる
 上のバグを修正し、「+2」ボタンをクリックすると、カウンターの数値が 2 増えるようにしてください。
 
@@ -79,6 +84,8 @@ export default function UserInfoApp() {
 6. state 内の配列の更新
 「ユーザー情報アプリ」に趣味を追加する機能を追加しました。しかし、ボタンをクリックしても趣味が追加されません。なぜなのか、その理由を説明してください。また、正しく動作するようにコードを修正してください。
 
+
+```
 import { useState } from 'react';
 
 export default function UserInfoApp() {
@@ -117,5 +124,10 @@ export default function UserInfoApp() {
     </div>
   );
 }
+
+```
+
+
+
 7. state のベストプラクティス
 React の公式ドキュメントの「state の管理」を読んでください。state を適切に使用する方法がまとめられています。state を適切に使用できるようになりましょう。
